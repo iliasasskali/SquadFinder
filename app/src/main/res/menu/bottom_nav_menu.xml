@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_esdeveniments"
+        android:icon="@drawable/ic_event"
+        android:title="@string/title_home_esdeveniments" />
+
+    <item
+        android:id="@+id/navigation_grups"
+        android:icon="@drawable/ic_group"
+        android:title="@string/title_grups" />
+
+    <item
+        android:id="@+id/navigation_meus_GE"
+        android:icon="@drawable/ic_schedule"
+        android:title="@string/title_meus_grups_esdev" />
+
+    <item
+        android:id="@+id/navigation_pro"
+        android:icon="@drawable/ic_cup"
+        android:title="@string/title_pro" />
+
+</menu>

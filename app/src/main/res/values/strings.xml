@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SquadFinder</string>
+    <string name="title_home_esdeveniments">Esdeveniments</string>
+    <string name="title_grups">Grups</string>
+    <string name="title_meus_grups_esdev">meus G/E</string>
+    <string name="title_pro">PRO</string>
+    <string name="crear">Crear</string>
+    <string name="crear_grup">Crear nou grup</string>
+    <string name="crear_esdeveniment">Crear nou esdeveniment</string>
+    <string name="filtrar">Filtrar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

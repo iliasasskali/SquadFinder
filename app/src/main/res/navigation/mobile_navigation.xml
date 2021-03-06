@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_esdeveniments">
+
+    <fragment
+        android:id="@+id/navigation_esdeveniments"
+        android:name="upf.edu.squadfinder.ui.esdeveniments.EsdevenimentsFragment"
+        android:label="@string/title_home_esdeveniments"
+        tools:layout="@layout/fragment_esdeveniments" />
+
+    <fragment
+        android:id="@+id/navigation_grups"
+        android:name="upf.edu.squadfinder.ui.grups.GrupsFragment"
+        android:label="@string/title_grups"
+        tools:layout="@layout/fragment_grups" />
+
+    <fragment
+        android:id="@+id/navigation_meus_GE"
+        android:name="upf.edu.squadfinder.ui.meusGrupsEsdeveniments.MeusGEFragment"
+        android:label="@string/title_meus_grups_esdev"
+        tools:layout="@layout/fragment_meus_grups_esdeveniments" />
+
+    <fragment
+        android:id="@+id/navigation_pro"
+        android:name="upf.edu.squadfinder.ui.pro.ProFragment"
+        android:label="@string/title_pro"
+        tools:layout="@layout/fragment_pro" />
+</navigation>
