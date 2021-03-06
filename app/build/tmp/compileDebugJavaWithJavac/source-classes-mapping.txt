@@ -1,0 +1,2 @@
+upf/edu/squadfinder/BuildConfig.java
+ upf.edu.squadfinder.BuildConfig

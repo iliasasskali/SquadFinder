@@ -8,6 +8,12 @@
     <string name="crear_grup">Crear nou grup</string>
     <string name="crear_esdeveniment">Crear nou esdeveniment</string>
     <string name="filtrar">Filtrar</string>
+    <string name="login_text_1">Introdueix les teves credencials</string>
+    <string name="login_send_button">Enviar</string>
+    <string name="intro_text_1">Selecciona una opció</string>
+    <string name="login_button">Identificació</string>
+    <string name="register_button">Registre</string>
+    <string name="title_activity_register">RegisterActivity</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
