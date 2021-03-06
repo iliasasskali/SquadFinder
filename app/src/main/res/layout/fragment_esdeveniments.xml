@@ -29,5 +29,7 @@
         android:clickable="true"
         android:src="@drawable/ic_filter"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/filtrar"
+        android:focusable="true" />
 </androidx.constraintlayout.widget.ConstraintLayout>
