@@ -6,108 +6,108 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml
+8-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml
+9-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.WAKE_LOCK" />
-11-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:5:5-68
-11-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:5:22-65
+11-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:5:22-65
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:6:5-67
-12-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:6:22-64
+12-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:6:22-64
 13
 14    <!-- Include required permissions for Google Maps API to run. -->
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
 16
 17    <uses-feature
-17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 18        android:glEsVersion="0x00020000"
-18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 19        android:required="true" />
-19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 20
 21    <application
-21-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:8:5-35:19
+21-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:8:5-35:19
 22        android:allowBackup="true"
-22-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:9:9-35
+22-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:9:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-23-->[androidx.core:core:1.3.2] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\5724419690274871c2fb5f6254f4f3e7\core-1.3.2\AndroidManifest.xml:24:18-86
+23-->[androidx.core:core:1.3.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5724419690274871c2fb5f6254f4f3e7\core-1.3.2\AndroidManifest.xml:24:18-86
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:icon="@mipmap/ic_launcher"
-26-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:10:9-43
+26-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:10:9-43
 27        android:label="@string/app_name"
-27-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:11:9-41
+27-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:11:9-41
 28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:12:9-54
+28-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:12:9-54
 29        android:supportsRtl="true"
-29-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:13:9-35
+29-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:13:9-35
 30        android:testOnly="true"
 31        android:theme="@style/Theme.SquadFinder" >
-31-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:14:9-49
+31-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:14:9-49
 32        <activity android:name="upf.edu.squadfinder.ui.chat.ChatActivity" />
-32-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:15:9-67
-32-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:15:19-55
+32-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:15:9-67
+32-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:15:19-55
 33        <activity
-33-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:16:9-18:72
+33-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:16:9-18:72
 34            android:name="edu.upf.squadFinder.RegisterActivity"
-34-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:17:13-64
+34-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:17:13-64
 35            android:label="@string/title_activity_register" />
-35-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:18:13-60
+35-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:18:13-60
 36        <!--
 37               Set to true if your app is Standalone, that is, it does not require the handheld
 38               app to run.
 39        -->
 40        <activity android:name="edu.upf.squadFinder.LoginActivity" />
-40-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:23:9-70
-40-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:23:19-67
+40-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:23:9-70
+40-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:23:19-67
 41        <activity
-41-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:24:9-27:20
+41-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:24:9-27:20
 42            android:name="upf.edu.squadfinder.HomeActivity"
-42-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:25:13-41
+42-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:25:13-41
 43            android:label="@string/app_name" >
-43-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:26:13-45
+43-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:26:13-45
 44        </activity>
 45        <activity android:name="edu.upf.squadFinder.MainActivity" >
-45-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:28:9-34:20
-45-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:28:19-66
+45-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:28:9-34:20
+45-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:28:19-66
 46            <intent-filter>
-46-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:29:13-33:29
+46-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:29:13-33:29
 47                <action android:name="android.intent.action.MAIN" />
-47-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:30:17-69
-47-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:30:25-66
+47-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:30:17-69
+47-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:30:25-66
 48
 49                <category android:name="android.intent.category.LAUNCHER" />
-49-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:32:17-77
-49-->C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:32:27-74
+49-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:32:17-77
+49-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:32:27-74
 50            </intent-filter>
 51        </activity>
 52        <!-- Needs to be explicitly declared on P+ -->
 53        <uses-library
-53-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+53-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 54            android:name="org.apache.http.legacy"
-54-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+54-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 55            android:required="false" />
-55-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+55-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 56
 57        <activity
-57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\432c5f87346adbd9781eb687ca782b97\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\432c5f87346adbd9781eb687ca782b97\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 58            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\432c5f87346adbd9781eb687ca782b97\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\432c5f87346adbd9781eb687ca782b97\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 59            android:exported="false"
-59-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\432c5f87346adbd9781eb687ca782b97\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+59-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\432c5f87346adbd9781eb687ca782b97\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-60-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\432c5f87346adbd9781eb687ca782b97\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+60-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\432c5f87346adbd9781eb687ca782b97\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 61
 62        <meta-data
-62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\3f7fdc1615f446df0cc2cf672bedffd9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\3f7fdc1615f446df0cc2cf672bedffd9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 63            android:name="com.google.android.gms.version"
-63-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\3f7fdc1615f446df0cc2cf672bedffd9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+63-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\3f7fdc1615f446df0cc2cf672bedffd9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 64            android:value="@integer/google_play_services_version" />
-64-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\3f7fdc1615f446df0cc2cf672bedffd9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+64-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\3f7fdc1615f446df0cc2cf672bedffd9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 65    </application>
 66
 67</manifest>
