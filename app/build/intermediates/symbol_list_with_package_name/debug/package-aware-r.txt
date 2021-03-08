@@ -1750,10 +1750,12 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_add
 drawable ic_add_event
+drawable ic_chat
 drawable ic_clock_black_24dp
 drawable ic_cup
 drawable ic_dashboard_black_24dp
 drawable ic_event
+drawable ic_event_delete
 drawable ic_filter
 drawable ic_group
 drawable ic_group_add
@@ -1767,6 +1769,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
 drawable ic_schedule
+drawable ic_share
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1801,6 +1804,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable receive_round_box
 drawable round_button
+drawable runnning_event
 drawable send_round_box
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1820,6 +1824,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id abandonarEsdevenimentButton
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1909,6 +1914,7 @@ id center_vertical
 id chain
 id chains
 id chatButton
+id chatEsdevenimentButton
 id checkbox
 id checked
 id chip
@@ -1923,6 +1929,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id collapseActionView
+id compartirEsdevenimentButton
 id confirm_button
 id container
 id content
@@ -1939,6 +1946,8 @@ id customPanel
 id cut
 id dark
 id dark_divider
+id data_detall_esdeveniment
+id data_ubicacio_detall_esdeveniment
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -1946,11 +1955,13 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descripcio_detall_esdeveniment
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detall_esdeveniment_image
 id dialog_button
 id dimensions
 id direct
@@ -2251,6 +2262,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id titol_detall_esdeveniment
 id toggle
 id top
 id topPanel
@@ -2265,6 +2277,7 @@ id transition_transform
 id triangle
 id tv_bot_message
 id tv_message
+id ubicacio_detall_esdeveniment
 id unchecked
 id uniform
 id unlabeled
@@ -2343,6 +2356,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_chat
+layout activity_detalls_esdeveniment_unit
 layout activity_home
 layout activity_login
 layout activity_main
@@ -2508,6 +2522,7 @@ string common_signin_button_text_long
 string crear
 string crear_esdeveniment
 string crear_grup
+string descripcio_detall_esdeveniment
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2586,6 +2601,7 @@ string title_grups
 string title_home_esdeveniments
 string title_meus_grups_esdev
 string title_pro
+string titol_detall_esdeveniment
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

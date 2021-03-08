@@ -4,6 +4,8 @@ upf/edu/squadfinder/databinding/FragmentEsdevenimentsBinding.java
  upf.edu.squadfinder.databinding.FragmentEsdevenimentsBinding
 upf/edu/squadfinder/databinding/RecyclerviewEsdevenimentsModelBinding.java
  upf.edu.squadfinder.databinding.RecyclerviewEsdevenimentsModelBinding
+upf/edu/squadfinder/databinding/ActivityDetallsEsdevenimentUnitBinding.java
+ upf.edu.squadfinder.databinding.ActivityDetallsEsdevenimentUnitBinding
 upf/edu/squadfinder/databinding/MessageItemBinding.java
  upf.edu.squadfinder.databinding.MessageItemBinding
 upf/edu/squadfinder/BuildConfig.java

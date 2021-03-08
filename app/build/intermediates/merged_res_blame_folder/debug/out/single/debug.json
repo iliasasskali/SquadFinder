@@ -84,6 +84,10 @@
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_group_add.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_event_delete.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_event_delete.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
     },
@@ -96,12 +100,16 @@
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_schedule.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_grups.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\fragment_grups.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_grups.xml.flat",
-        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\fragment_grups.xml"
+        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_runnning_event.jpg.flat",
+        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable\\runnning_event.jpg"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cup.xml.flat",
@@ -112,12 +120,24 @@
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\message_item.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chat.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_chat.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_filter.xml.flat",
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalls_esdeveniment_unit.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\activity_detalls_esdeveniment_unit.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_share.xml"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",

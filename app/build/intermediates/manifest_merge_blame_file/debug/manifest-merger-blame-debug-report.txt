@@ -48,29 +48,31 @@
 30        android:testOnly="true"
 31        android:theme="@style/Theme.SquadFinder" >
 31-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:14:9-49
-32        <activity android:name="upf.edu.squadfinder.ui.chat.ChatActivity" />
-32-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:15:9-67
-32-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:15:19-55
-33        <activity
-33-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:16:9-18:72
-34            android:name="edu.upf.squadFinder.RegisterActivity"
-34-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:17:13-64
-35            android:label="@string/title_activity_register" />
-35-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:18:13-60
-36        <!--
-37               Set to true if your app is Standalone, that is, it does not require the handheld
-38               app to run.
-39        -->
-40        <activity android:name="edu.upf.squadFinder.LoginActivity" />
-40-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:23:9-70
-40-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:23:19-67
-41        <activity
-41-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:24:9-27:20
-42            android:name="upf.edu.squadfinder.HomeActivity"
-42-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:25:13-41
-43            android:label="@string/app_name" >
-43-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:26:13-45
-44        </activity>
+32        <activity android:name="upf.edu.squadfinder.DetailedEventActivity" />
+32-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:15:9-68
+32-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:15:19-56
+33        <activity android:name="upf.edu.squadfinder.ui.chat.ChatActivity" />
+33-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:16:9-58
+33-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:16:19-55
+34        <activity
+34-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:17:9-19:63
+35            android:name="edu.upf.squadFinder.RegisterActivity"
+35-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:18:13-64
+36            android:label="@string/title_activity_register" />
+36-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:19:13-60
+37        <!--
+38               Set to true if your app is Standalone, that is, it does not require the handheld
+39               app to run.
+40        -->
+41        <activity android:name="edu.upf.squadFinder.LoginActivity" />
+41-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:24:9-70
+41-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:24:19-67
+42        <activity
+42-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:25:9-27:57
+43            android:name="upf.edu.squadfinder.HomeActivity"
+43-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:26:13-41
+44            android:label="@string/app_name" />
+44-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:27:13-45
 45        <activity android:name="edu.upf.squadFinder.MainActivity" >
 45-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:28:9-34:20
 45-->C:\Users\user\Desktop\SquadFinder\app\src\main\AndroidManifest.xml:28:19-66
