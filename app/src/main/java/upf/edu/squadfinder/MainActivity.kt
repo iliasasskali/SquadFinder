@@ -1,11 +1,10 @@
-package edu.upf.squadFinder
+package upf.edu.squadfinder
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import upf.edu.squadfinder.ui.chat.ChatActivity
-import upf.edu.squadfinder.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

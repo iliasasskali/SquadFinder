@@ -1,53 +1,33 @@
-package edu.upf.squadFinder
+package upf.edu.squadfinder
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.Environment
 import android.view.MenuItem
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import edu.upf.squadFinder.data.Message
-import kotlinx.android.synthetic.main.activity_register.*
-import upf.edu.squadfinder.HomeActivity
-import upf.edu.squadfinder.R
-import java.io.BufferedReader
-import java.io.File
+import upf.edu.squadfinder.data.User
 import java.io.InputStream
 
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_login)
+
         // showing the back button in action bar
         getSupportActionBar()?.setDisplayHomeAsUpEnabled(true)
 
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        //list to save the users in a array of Users
+        var usersList = this.getListOfUsers()
 
         val inputGroup = findViewById<EditText>(R.id.userField)
         val inputPass = findViewById<EditText>(R.id.passField)
         val sendButton = findViewById<Button>(R.id.sendButton)
 
-        //list to save the users in a array of Users
-        var usersList = mutableListOf<Users>()
-        //get the users.txt from the assets folder
-        val assetInStream : InputStream = getAssets().open("users.txt")
-        //reading the file line to line
-        assetInStream.bufferedReader().forEachLine {
-            //Splitting the line by one space
-            var (string1, string2) = it.split(" ");
-            string1 = string1.filter { !it.isWhitespace() } //for the name
-            string2 = string2.filter { !it.isWhitespace() } //for the password
-
-            string1 = string1.toLowerCase()
-            string2 = string2.toLowerCase()
-
-            usersList.add(Users(string1, string2))  //Saving the class inside userList
-        }
-        //
-
+        //sendButton click
         sendButton.setOnClickListener {
             var userBoxString: String = inputGroup.text.toString()
             var passBoxString: String = inputPass.text.toString()
@@ -90,6 +70,28 @@ class LoginActivity : AppCompatActivity() {
         startActivity(myIntent)
         return true
     }
+
+    //get the list of users from "database" ==> users.txt
+    fun getListOfUsers(): List<User> {
+        //list to save the users in a array of Users
+        var usersList = mutableListOf<User>()
+        //get the users.txt from the assets folder
+        val assetInStream : InputStream = getAssets().open("users.txt")
+        //reading the file line to line
+        assetInStream.bufferedReader().forEachLine {
+            //Splitting the line by one space
+            var (string1, string2) = it.split(" ");
+            string1 = string1.filter { !it.isWhitespace() } //for the name
+            string2 = string2.filter { !it.isWhitespace() } //for the password
+
+            string1 = string1.toLowerCase()
+            string2 = string2.toLowerCase()
+
+            usersList.add(User(string1, string2))  //Saving the class inside userList
+        }
+
+        return usersList;
+    }
 }
 
-data class Users(val userName: String, val userPassword: String) {}
+//data class Users(val userName: String, val userPassword: String) {} borrar

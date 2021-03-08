@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-38:12
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\1675df96b3e4b95f92e84df221444a89\jetified-viewbinding-4.1.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.2.2] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\de400dd43f2ef8b7a90a976823df8833\navigation-fragment-ktx-2.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\cfa204ee286aa019aa81bd8731a5f08d\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.2.2] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\f92bd52c83e57cf1c53943007a5c583c\navigation-ui-ktx-2.2.2\AndroidManifest.xml:17:1-24:12
@@ -63,20 +64,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\3c42045a155e351cc7f8e9e2f8558ce6\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\64e415f501163b45103f528322069681\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\15aa155ad0ec2eb1991fa443b30ecfef\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:2:11-69
@@ -90,8 +91,12 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rupesh\.
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:8:5-35:19
+ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:9:5-36:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\faecea335808a370d43ddf9ed7c5a1e9\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\faecea335808a370d43ddf9ed7c5a1e9\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\53c83d306e922a17de670d29b8fc1d87\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -111,55 +116,57 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ru
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\5724419690274871c2fb5f6254f4f3e7\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:14:9-49
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:15:9-49
 activity#upf.edu.squadfinder.ui.chat.ChatActivity
-ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:15:9-67
+ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:16:9-67
 	android:name
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:15:19-55
-activity#edu.upf.squadFinder.RegisterActivity
-ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:16:9-18:72
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:16:19-55
+activity#upf.edu.squadfinder.RegisterActivity
+ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:17:9-19:72
 	android:label
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:18:13-60
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:19:13-60
 	android:name
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:17:13-64
-activity#edu.upf.squadFinder.LoginActivity
-ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:23:9-70
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:18:13-45
+activity#upf.edu.squadfinder.LoginActivity
+ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:24:9-51
 	android:name
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:23:19-67
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:24:19-48
 activity#upf.edu.squadfinder.HomeActivity
-ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:24:9-27:20
+ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:25:9-28:20
 	android:label
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:26:13-45
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:27:13-45
 	android:name
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:25:13-41
-activity#edu.upf.squadFinder.MainActivity
-ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:28:9-34:20
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:26:13-41
+activity#upf.edu.squadfinder.MainActivity
+ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:29:9-35:20
 	android:name
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:28:19-66
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:29:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml:33:27-74
 uses-sdk
 INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Rupesh\Desktop\AppMobile\SquadFinder\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\1675df96b3e4b95f92e84df221444a89\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\1675df96b3e4b95f92e84df221444a89\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.2.2] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\de400dd43f2ef8b7a90a976823df8833\navigation-fragment-ktx-2.2.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.2.2] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\de400dd43f2ef8b7a90a976823df8833\navigation-fragment-ktx-2.2.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Rupesh\.gradle\caches\transforms-2\files-2.1\cfa204ee286aa019aa81bd8731a5f08d\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41

@@ -1,7 +1,8 @@
-package edu.upf.squadFinder.utils
+package upf.edu.squadfinder.utils
 
-import edu.upf.squadFinder.utils.Constants.OPEN_GOOGLE
-import edu.upf.squadFinder.utils.Constants.OPEN_SEARCH
+import android.widget.Toast
+import upf.edu.squadfinder.utils.Constants.OPEN_GOOGLE
+import upf.edu.squadfinder.utils.Constants.OPEN_SEARCH
 import java.sql.Date
 import java.sql.Timestamp
 import java.text.SimpleDateFormat
@@ -25,8 +26,8 @@ object BotResponse {
 
 
             //Math calculations
-            message.contains("resoldre") -> {
-                val equation: String? = message.substringAfterLast("solve")
+            message.contains("resol")-> {
+                val equation: String? = message.substringAfterLast("resol")
                 return try {
                     val answer = SolveMath.solveMath(equation ?: "0")
                     "$answer"

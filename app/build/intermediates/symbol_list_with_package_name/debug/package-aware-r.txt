@@ -1739,6 +1739,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable cycling
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1804,6 +1805,7 @@ drawable send_round_box
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable upf
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1899,6 +1901,8 @@ id buttonPanel
 id cache_measures
 id cancel_action
 id cancel_button
+id card_view_esdeveniment
+id card_view_grup
 id center
 id center_horizontal
 id center_vertical
@@ -1920,6 +1924,8 @@ id clip_vertical
 id clockwise
 id collapseActionView
 id confirm_button
+id constraintLayout
+id constraintLayout2
 id container
 id content
 id contentPanel
@@ -1972,6 +1978,10 @@ id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id et_message
+id event_dateTime
+id event_image
+id event_title
+id event_ubication
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1993,6 +2003,10 @@ id gone
 id graph
 id graph_wrap
 id group_divider
+id group_image
+id group_members
+id group_name
+id group_ubication
 id grouping
 id groups
 id guideline
@@ -2011,9 +2025,8 @@ id ignoreRequest
 id image
 id info
 id inputGroup
-id inputNIA1
-id inputNIA2
 id inputPass
+id inputPass2
 id introText
 id invisible
 id inward
@@ -2132,6 +2145,8 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerViewEsdeveniments
+id recyclerViewGrups
 id registerButton
 id registerButton2
 id reverseSawtooth
@@ -2222,7 +2237,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id text_esdeveniments
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2412,6 +2426,9 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout recyclerview_esdeveniments_model
+layout recyclerview_grups_model
+layout recyclerview_model
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

@@ -4,14 +4,16 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
-import edu.upf.squadFinder.data.Message
-import edu.upf.squadFinder.utils.BotResponse
-import edu.upf.squadFinder.utils.Constants.OPEN_GOOGLE
-import edu.upf.squadFinder.utils.Constants.OPEN_SEARCH
-import edu.upf.squadFinder.utils.Constants.RECEIVE_ID
-import edu.upf.squadFinder.utils.Constants.SEND_ID
-import edu.upf.squadFinder.utils.Time
+import upf.edu.squadfinder.MainActivity
+import upf.edu.squadfinder.data.Message
+import upf.edu.squadfinder.utils.BotResponse
+import upf.edu.squadfinder.utils.Constants.OPEN_GOOGLE
+import upf.edu.squadfinder.utils.Constants.OPEN_SEARCH
+import upf.edu.squadfinder.utils.Constants.RECEIVE_ID
+import upf.edu.squadfinder.utils.Constants.SEND_ID
+import upf.edu.squadfinder.utils.Time
 import kotlinx.android.synthetic.main.activity_chat.*
 import kotlinx.coroutines.*
 import upf.edu.squadfinder.R
@@ -27,12 +29,15 @@ class ChatActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chat)
 
+        // showing the back button in action bar
+        getSupportActionBar()?.setDisplayHomeAsUpEnabled(true)
+
         recyclerView()
 
         clickEvents()
 
         val random = (0..3).random()
-            customBotMessage("Hola! Em dic ${botList[random]}, benvinguda/benvingut")
+        customBotMessage("Hola! Em dic ${botList[random]}, benvinguda/benvingut")
     }
 
     //Function for when the Send Button is clicked
@@ -142,5 +147,12 @@ class ChatActivity : AppCompatActivity() {
                 rv_messages.scrollToPosition(adapter.itemCount - 1)
             }
         }
+    }
+
+    // this event will enable the back function to the button on press
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val myIntent = Intent(this, MainActivity::class.java).apply {}
+        startActivity(myIntent)
+        return true
     }
 }

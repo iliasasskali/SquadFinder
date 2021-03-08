@@ -1,4 +1,4 @@
-package edu.upf.squadFinder.utils
+package upf.edu.squadfinder.utils
 
 import android.util.Log
 

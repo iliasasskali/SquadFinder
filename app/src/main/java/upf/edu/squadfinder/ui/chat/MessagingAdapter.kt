@@ -4,9 +4,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import edu.upf.squadFinder.data.Message
-import edu.upf.squadFinder.utils.Constants.RECEIVE_ID
-import edu.upf.squadFinder.utils.Constants.SEND_ID
+import upf.edu.squadfinder.data.Message
+import upf.edu.squadfinder.utils.Constants.RECEIVE_ID
+import upf.edu.squadfinder.utils.Constants.SEND_ID
 import kotlinx.android.synthetic.main.message_item.view.*
 import upf.edu.squadfinder.R
 

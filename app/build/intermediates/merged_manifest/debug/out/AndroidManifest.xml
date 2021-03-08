@@ -10,6 +10,7 @@
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <!-- Include required permissions for Google Maps API to run. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -31,18 +32,18 @@
         android:theme="@style/Theme.SquadFinder" >
         <activity android:name="upf.edu.squadfinder.ui.chat.ChatActivity" />
         <activity
-            android:name="edu.upf.squadFinder.RegisterActivity"
+            android:name="upf.edu.squadfinder.RegisterActivity"
             android:label="@string/title_activity_register" />
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
         -->
-        <activity android:name="edu.upf.squadFinder.LoginActivity" />
+        <activity android:name="upf.edu.squadfinder.LoginActivity" />
         <activity
             android:name="upf.edu.squadfinder.HomeActivity"
             android:label="@string/app_name" >
         </activity>
-        <activity android:name="edu.upf.squadFinder.MainActivity" >
+        <activity android:name="upf.edu.squadfinder.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

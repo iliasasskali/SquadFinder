@@ -1,2 +1,28 @@
+upf/edu/squadfinder/databinding/ActivityChatBinding.java
+ upf.edu.squadfinder.databinding.ActivityChatBinding
+upf/edu/squadfinder/databinding/FragmentEsdevenimentsBinding.java
+ upf.edu.squadfinder.databinding.FragmentEsdevenimentsBinding
+upf/edu/squadfinder/databinding/RecyclerviewEsdevenimentsModelBinding.java
+ upf.edu.squadfinder.databinding.RecyclerviewEsdevenimentsModelBinding
+upf/edu/squadfinder/databinding/MessageItemBinding.java
+ upf.edu.squadfinder.databinding.MessageItemBinding
 upf/edu/squadfinder/BuildConfig.java
  upf.edu.squadfinder.BuildConfig
+upf/edu/squadfinder/databinding/RecyclerviewGrupsModelBinding.java
+ upf.edu.squadfinder.databinding.RecyclerviewGrupsModelBinding
+upf/edu/squadfinder/databinding/FragmentGrupsBinding.java
+ upf.edu.squadfinder.databinding.FragmentGrupsBinding
+upf/edu/squadfinder/databinding/ActivityRegisterBinding.java
+ upf.edu.squadfinder.databinding.ActivityRegisterBinding
+upf/edu/squadfinder/databinding/RecyclerviewModelBinding.java
+ upf.edu.squadfinder.databinding.RecyclerviewModelBinding
+upf/edu/squadfinder/databinding/FragmentMeusGrupsEsdevenimentsBinding.java
+ upf.edu.squadfinder.databinding.FragmentMeusGrupsEsdevenimentsBinding
+upf/edu/squadfinder/databinding/ActivityMainBinding.java
+ upf.edu.squadfinder.databinding.ActivityMainBinding
+upf/edu/squadfinder/databinding/FragmentProBinding.java
+ upf.edu.squadfinder.databinding.FragmentProBinding
+upf/edu/squadfinder/databinding/ActivityLoginBinding.java
+ upf.edu.squadfinder.databinding.ActivityLoginBinding
+upf/edu/squadfinder/databinding/ActivityHomeBinding.java
+ upf.edu.squadfinder.databinding.ActivityHomeBinding
