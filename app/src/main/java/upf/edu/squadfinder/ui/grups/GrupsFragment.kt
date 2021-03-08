@@ -4,28 +4,40 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
-import upf.edu.squadfinder.R
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import upf.edu.squadfinder.databinding.FragmentGrupsBinding
+import upf.edu.squadfinder.ui.grups.GrupsRecyclerViewAdapter
 
 class GrupsFragment : Fragment() {
 
     private lateinit var grupsViewModel: GrupsViewModel
+    private var layoutManager: RecyclerView.LayoutManager? = null
+    private var adapter: RecyclerView.Adapter<GrupsRecyclerViewAdapter.ViewHolder>? = null
+
+    private var _binding: FragmentGrupsBinding? = null
+    private val binding get() = _binding!!
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        grupsViewModel =
-                ViewModelProvider(this).get(GrupsViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_grups, container, false)
-        val textView: TextView = root.findViewById(R.id.text_pro)
-        grupsViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
-        return root
+        _binding = FragmentGrupsBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.recyclerViewGrups.apply {
+            layoutManager = LinearLayoutManager(activity)
+            adapter = GrupsRecyclerViewAdapter()
+        }
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }

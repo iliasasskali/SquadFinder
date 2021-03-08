@@ -32,7 +32,7 @@ class ChatActivity : AppCompatActivity() {
         clickEvents()
 
         val random = (0..3).random()
-            customBotMessage("Hola! Em dic ${botList[random]}, benvinguda/benvingut")
+        customBotMessage("Hola! Em dic ${botList[random]}, benvinguda/benvingut")
     }
 
     //Function for when the Send Button is clicked
