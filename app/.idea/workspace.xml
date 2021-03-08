@@ -25,14 +25,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b75581-c6f2-4c24-a1f1-85fe912d3db1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/data/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/esdeveniments/EsdevenimentsRecyclerViewAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/grups/GrupsRecyclerViewAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/cycling.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/upf.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/recyclerview_esdeveniments_model.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/recyclerview_grups_model.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/recyclerview_model.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/DetailedEventActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_event_delete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/runnning_event.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_detalls_esdeveniment_unit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -43,173 +41,15 @@
       <change beforePath="$PROJECT_DIR$/../.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/compressed_assets/debug/out/assets/users.txt.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/compressed_assets/debug/out/assets/users.txt.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+67ujgQ89Ol1GR0sltuE_SR1qpM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/0CERcUw64hdpygTVoAycvFi1NsQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/0a2mcy1koRqLAjq67BvBW60Bn7M=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/0lT4MyjBeM95h05rfHM0BgwNi2k=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/2WzsVI6657ldm1u4Kvh18yHBp1c=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/36ZMKzQ5nYZcw30T9VfWYL0T1SA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3fEImR45YDjUTEPPRVkr84y4eSA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4OzycyY4gN81+UHLRoTTVV9Ubf8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4cd8RVW0rVTBhl1ssKGcvJTu4so=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4eJ8G9klT8Emnky+TSPhsQYMntM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/55KlRP_7R5pTPdD40zVVCxwcLW8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5hmEusdlzYZiGA7MxVcjDSaQ16s=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6kQRbQKjAmwlzaYImqiERJ+kMVk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/7ZVX0fVuJirjLtytxfWBIF+A6kU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8jz4AJFYM+bsOh6OSHwv6mSWD1A=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/B2LmpQkfrDxmPJNGSIxJxQSS7V8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/D6Xp7ZOFWURuBL3Ih5C+T6IZceE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/DeWnXTTeaURXUACuLbMGKyGfUZs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ETf+lyGftGs2Hp8DG32ycvk+Tgo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/EURksv68oPCsJSXfuHazi9Orkpc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FEi69fUfBvT36frCIXSNdB8v_i0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/KwvSARs86AOkyhrY9RGlvOPSj3Y=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LD7wsZ3ZvjFfJxo0IPoVxngnF7Q=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Lpj2S6QQHcqoUulLAHO8bbvjHs0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MujlL6d4ZaoOJb69b8MPZYA4qbg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/P_a7Uo7dtvP6EF_7_dGi9SDEeAQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QACKa6LVJPHNKAyQffrCV1u9YYo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QSnfk12vRzs2J_D8VesoNkq127k=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RXZpXANDgVIq0iJnC+GOGE1+QZI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RZGSJiVITKGZUPcldCdyPtBy7hA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RfAfoRWuwL5bh3WqdRC_cgdfqEQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/SAjYcZ51piPBfVibhT4J0OD9sbg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/SPSqleU_o8GDiNvxANNMd+eVZf4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ST6pAexjDbqgHZG9+xE9m_Nqjog=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/TJxGfJVsSly4nfvcLzTRNRoNkus=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/TuX3kEMPGaX+6DPW52QTBgNo9tk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/UVUwwOy10bOnXAZ79d5PLWcrwkg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/VYUP0Un3EQYgvpdU1zfXm_iAX5k=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/VzJqccYd2rDEV3+O82HzxQW5Edk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Z9lnCQrVPf04OsbxXpuksDSaxZg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZVdIBIbduK+2YZaZ6MMXXvhxZ9A=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Zk2E2N+DyMP+AY5yIoc9uAeCB9U=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_PIeeWzYlQHBu2t+RFWdpUXs3f0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/cmWPHuf8gQR6j8EYxyu3fDlKyKU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/d2n1c7bd7k+C_rWR23Wr4w+Lx+w=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dHeQRpD9sxXL+xRlTCpcVN80SUg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dWiUAWV3dvVNCjulcR5h6D+U+Bc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/eOCAnYMehmOgWA4tY6YIaTgeMmo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/eluLhu79Z9XIEq9rx6XxtFaS0tI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fipYvT6xaUPPAdCl0jWUYFxm8fw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fzy5ZIHu03pf1dCqWfBb8vysRT4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/k3p83iZGYfwVFOhCyZ5z5NTVJuA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kDH41Hrp7YhXFKBjrb2iZjDlkzY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kGPH00_oHtZUctd7P46BmCQYzck=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/knryjYFU_RCC5cog1rrmQZdocz8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/lZoJbTb6B7HhQ+ZHpri36FTDfGM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/m2J49CcFFKMTuGAJ5MnZY3Vs9t8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ml+RAS6lh6DkBpT7r6_1c8mUB88=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/n0WqPI8iX0KsYklJTG7iJETMfO8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/p4uQKJ7YdqxAAeBNGppFx8Yl1XY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/q5HFCyNPwIXSuIiSuPhyIo9jPz0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/qjYCQuyFZZHuK5xbRfiaIOlCQAg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rnDCV3AsC9jNpLnM8KcpG+AJ9jY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rqTOaZaiGN58TnYvkcDT4kqR71I=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rypGXgj6_9gFPxgsHljyQShm9fw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tUA8DQTzcCywWG2Jo64tlkWjuUA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/u7DgKdMQRQCmoureLaJRld01Rhk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/uX0bH3Xh7WmAlM8HCI+pAEQr9x0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/uZIQVEz_iJ4kvzoryVEAnYP14V8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vGsXbKrop7gIIerz9oiU19_G28M=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vRH+tHJhHBRekneL7CPguejFYbY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wZ12EBbeLKI+zIeB3E2HpEAtaiM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yh_muRBSc9kpwuWDcZVV7nMDM+w=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/+67ujgQ89Ol1GR0sltuE_SR1qpM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/0CERcUw64hdpygTVoAycvFi1NsQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/0a2mcy1koRqLAjq67BvBW60Bn7M=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/0lT4MyjBeM95h05rfHM0BgwNi2k=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/2WzsVI6657ldm1u4Kvh18yHBp1c=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/36ZMKzQ5nYZcw30T9VfWYL0T1SA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/3fEImR45YDjUTEPPRVkr84y4eSA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/4OzycyY4gN81+UHLRoTTVV9Ubf8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/4cd8RVW0rVTBhl1ssKGcvJTu4so=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/4eJ8G9klT8Emnky+TSPhsQYMntM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/55KlRP_7R5pTPdD40zVVCxwcLW8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/5hmEusdlzYZiGA7MxVcjDSaQ16s=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/6kQRbQKjAmwlzaYImqiERJ+kMVk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/7ZVX0fVuJirjLtytxfWBIF+A6kU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/8jz4AJFYM+bsOh6OSHwv6mSWD1A=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/B2LmpQkfrDxmPJNGSIxJxQSS7V8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/D6Xp7ZOFWURuBL3Ih5C+T6IZceE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/DeWnXTTeaURXUACuLbMGKyGfUZs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ETf+lyGftGs2Hp8DG32ycvk+Tgo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/EURksv68oPCsJSXfuHazi9Orkpc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/FEi69fUfBvT36frCIXSNdB8v_i0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/KwvSARs86AOkyhrY9RGlvOPSj3Y=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/LD7wsZ3ZvjFfJxo0IPoVxngnF7Q=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Lpj2S6QQHcqoUulLAHO8bbvjHs0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/MujlL6d4ZaoOJb69b8MPZYA4qbg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/P_a7Uo7dtvP6EF_7_dGi9SDEeAQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/QACKa6LVJPHNKAyQffrCV1u9YYo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/QSnfk12vRzs2J_D8VesoNkq127k=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/RXZpXANDgVIq0iJnC+GOGE1+QZI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/RZGSJiVITKGZUPcldCdyPtBy7hA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/RfAfoRWuwL5bh3WqdRC_cgdfqEQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/SAjYcZ51piPBfVibhT4J0OD9sbg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/SPSqleU_o8GDiNvxANNMd+eVZf4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ST6pAexjDbqgHZG9+xE9m_Nqjog=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/TJxGfJVsSly4nfvcLzTRNRoNkus=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/TuX3kEMPGaX+6DPW52QTBgNo9tk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/UVUwwOy10bOnXAZ79d5PLWcrwkg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/VYUP0Un3EQYgvpdU1zfXm_iAX5k=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/VzJqccYd2rDEV3+O82HzxQW5Edk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Z9lnCQrVPf04OsbxXpuksDSaxZg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ZVdIBIbduK+2YZaZ6MMXXvhxZ9A=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Zk2E2N+DyMP+AY5yIoc9uAeCB9U=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_PIeeWzYlQHBu2t+RFWdpUXs3f0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/cmWPHuf8gQR6j8EYxyu3fDlKyKU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/d2n1c7bd7k+C_rWR23Wr4w+Lx+w=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/dHeQRpD9sxXL+xRlTCpcVN80SUg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/dWiUAWV3dvVNCjulcR5h6D+U+Bc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/eOCAnYMehmOgWA4tY6YIaTgeMmo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/eluLhu79Z9XIEq9rx6XxtFaS0tI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/fipYvT6xaUPPAdCl0jWUYFxm8fw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/fzy5ZIHu03pf1dCqWfBb8vysRT4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/k3p83iZGYfwVFOhCyZ5z5NTVJuA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/kDH41Hrp7YhXFKBjrb2iZjDlkzY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/kGPH00_oHtZUctd7P46BmCQYzck=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/knryjYFU_RCC5cog1rrmQZdocz8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/lZoJbTb6B7HhQ+ZHpri36FTDfGM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/m2J49CcFFKMTuGAJ5MnZY3Vs9t8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ml+RAS6lh6DkBpT7r6_1c8mUB88=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/n0WqPI8iX0KsYklJTG7iJETMfO8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/p4uQKJ7YdqxAAeBNGppFx8Yl1XY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/q5HFCyNPwIXSuIiSuPhyIo9jPz0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/qjYCQuyFZZHuK5xbRfiaIOlCQAg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/rnDCV3AsC9jNpLnM8KcpG+AJ9jY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/rqTOaZaiGN58TnYvkcDT4kqR71I=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/rypGXgj6_9gFPxgsHljyQShm9fw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/tUA8DQTzcCywWG2Jo64tlkWjuUA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/u7DgKdMQRQCmoureLaJRld01Rhk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/uX0bH3Xh7WmAlM8HCI+pAEQr9x0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/uZIQVEz_iJ4kvzoryVEAnYP14V8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vGsXbKrop7gIIerz9oiU19_G28M=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vRH+tHJhHBRekneL7CPguejFYbY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/wZ12EBbeLKI+zIeB3E2HpEAtaiM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/yh_muRBSc9kpwuWDcZVV7nMDM+w=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/users.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
@@ -217,54 +57,24 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/d0d661acf00988f6e71fe041d3c457935e178342989975bbebcea59c520ce812_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/d0d661acf00988f6e71fe041d3c457935e178342989975bbebcea59c520ce812_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/d0d661acf00988f6e71fe041d3c457935e178342989975bbebcea59c520ce812_2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/d0d661acf00988f6e71fe041d3c457935e178342989975bbebcea59c520ce812_3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/LoginActivity$onCreate$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/LoginActivity$onCreate$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/LoginActivity.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/MainActivity$onCreate$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/MainActivity$onCreate$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/MainActivity$onCreate$3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/MainActivity.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/RegisterActivity$onCreate$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/RegisterActivity.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/Users.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/data/Message.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/utils/BotResponse.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/utils/Constants.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/utils/SolveMath.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/utils/Time.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/LoginActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/LoginActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/RegisterActivity$onCreate$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/RegisterActivity$onCreate$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/RegisterActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/edu/upf/squadFinder/RegisterActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$fromBottom$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$fromBottom$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$onCreate$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$onCreate$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$onCreate$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$onCreate$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$onCreate$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$onCreate$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$rotateClose$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$rotateClose$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$rotateOpen$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$rotateOpen$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$toBottom$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity$toBottom$2.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$botResponse$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$botResponse$1$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$botResponse$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$botResponse$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$2$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$2$1$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$2$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$2$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$customBotMessage$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$customBotMessage$1$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$customBotMessage$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$customBotMessage$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$onStart$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$onStart$1$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$onStart$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity$onStart$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/ChatActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/MessagingAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/chat/MessagingAdapter.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/esdeveniments/EsdevenimentsFragment$onCreateView$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/esdeveniments/EsdevenimentsFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/esdeveniments/EsdevenimentsFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/grups/GrupsFragment$onCreateView$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/grups/GrupsFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/grups/GrupsFragment.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/meusGrupsEsdeveniments/MeusGEFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/meusGrupsEsdeveniments/MeusGEFragment.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/pro/ProFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/pro/ProFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_chat.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_chat.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_home.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_home.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_login.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_login.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_register.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_register.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_fragment_esdeveniments.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_fragment_esdeveniments.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_fragment_grups.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_fragment_grups.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_fragment_meus_grups_esdeveniments.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_fragment_meus_grups_esdeveniments.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_fragment_pro.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_fragment_pro.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_message_item.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_message_item.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
@@ -288,8 +98,6 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
@@ -309,11 +117,7 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterDir="false" />
@@ -343,58 +147,24 @@
       <change beforePath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/LoginActivity$onCreate$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/LoginActivity$onCreate$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/LoginActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/MainActivity$onCreate$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/MainActivity$onCreate$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/MainActivity$onCreate$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/MainActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/RegisterActivity$onCreate$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/RegisterActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/data/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/utils/BotResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/utils/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/utils/SolveMath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/utils/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/LoginActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/RegisterActivity$onCreate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/RegisterActivity$onCreate$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/RegisterActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/edu/upf/squadFinder/RegisterActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$fromBottom$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$fromBottom$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$onCreate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$onCreate$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$onCreate$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$onCreate$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$onCreate$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$onCreate$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$rotateClose$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$rotateClose$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$rotateOpen$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$rotateOpen$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$toBottom$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity$toBottom$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$botResponse$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$botResponse$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$botResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$botResponse$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$2$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$2$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$clickEvents$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$customBotMessage$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$customBotMessage$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$customBotMessage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$customBotMessage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$onStart$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$onStart$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$onStart$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity$onStart$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/ChatActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/MessagingAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/chat/MessagingAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/esdeveniments/EsdevenimentsFragment$onCreateView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/esdeveniments/EsdevenimentsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/esdeveniments/EsdevenimentsFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/grups/GrupsFragment$onCreateView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/grups/GrupsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/grups/GrupsFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/meusGrupsEsdeveniments/MeusGEFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/meusGrupsEsdeveniments/MeusGEFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/pro/ProFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/pro/ProFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/users.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/LoginActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/RegisterActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/RegisterActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/data/Message.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/data/Message.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/chat/ChatActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/chat/ChatActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/chat/MessagingAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/chat/MessagingAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/esdeveniments/EsdevenimentsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/esdeveniments/EsdevenimentsFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/grups/GrupsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/grups/GrupsFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/utils/BotResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/utils/BotResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/utils/Constants.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/utils/SolveMath.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/utils/SolveMath.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/utils/Time.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/utils/Time.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_esdeveniments.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_esdeveniments.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_grups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_grups.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -542,29 +312,29 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="488" y="148" key="AndroidCreateXmlResourceDialog/0.0.1280.680@0.0.1280.680" timestamp="1615062283660" />
-    <state width="1236" height="228" key="GridCell.Tab.0.bottom" timestamp="1615210504108">
+    <state width="1236" height="228" key="GridCell.Tab.0.bottom" timestamp="1615211262685">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="228" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615210504108" />
-    <state width="1236" height="228" key="GridCell.Tab.0.center" timestamp="1615210504108">
+    <state width="1236" height="228" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615211262685" />
+    <state width="1236" height="228" key="GridCell.Tab.0.center" timestamp="1615211262684">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="228" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615210504108" />
-    <state width="1236" height="228" key="GridCell.Tab.0.left" timestamp="1615210504108">
+    <state width="1236" height="228" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615211262684" />
+    <state width="1236" height="228" key="GridCell.Tab.0.left" timestamp="1615211262684">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="228" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615210504108" />
-    <state width="1236" height="228" key="GridCell.Tab.0.right" timestamp="1615210504108">
+    <state width="1236" height="228" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615211262684" />
+    <state width="1236" height="228" key="GridCell.Tab.0.right" timestamp="1615211262684">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="228" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615210504108" />
-    <state x="347" y="73" width="587" height="592" key="find.popup" timestamp="1615207189519">
+    <state width="1236" height="228" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615211262684" />
+    <state x="347" y="73" width="587" height="592" key="find.popup" timestamp="1615211191113">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="347" y="73" width="587" height="592" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1615207189519" />
-    <state x="299" y="-6" width="672" height="676" key="search.everywhere.popup" timestamp="1615206277014">
+    <state x="347" y="73" width="587" height="592" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1615211191113" />
+    <state x="299" y="-6" width="672" height="676" key="search.everywhere.popup" timestamp="1615211080363">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="299" y="-6" width="672" height="676" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1615206277014" />
+    <state x="299" y="-6" width="672" height="676" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1615211080363" />
   </component>
 </project>

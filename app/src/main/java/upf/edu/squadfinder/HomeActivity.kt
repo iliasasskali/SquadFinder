@@ -1,5 +1,6 @@
 package upf.edu.squadfinder
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.animation.Animation
@@ -12,6 +13,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import upf.edu.squadfinder.ui.chat.ChatActivity
 
 class HomeActivity : AppCompatActivity() {
     // Animacions create button
@@ -53,6 +55,7 @@ class HomeActivity : AppCompatActivity() {
         createEventButton.setOnClickListener {
             // Anar a la pantalla de creacio d'esdeveniments
             Toast.makeText(this, "CREACIÓ ESDEVENIMENT", Toast.LENGTH_SHORT).show()
+
         }
     }
 
