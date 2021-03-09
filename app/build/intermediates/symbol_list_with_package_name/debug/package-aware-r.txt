@@ -1746,6 +1746,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable event_map
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_add
@@ -1756,11 +1757,13 @@ drawable ic_cup
 drawable ic_dashboard_black_24dp
 drawable ic_event
 drawable ic_event_delete
+drawable ic_event_join
 drawable ic_exit
 drawable ic_filter
 drawable ic_group
 drawable ic_group_add
 drawable ic_home_black_24dp
+drawable ic_join_group
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1935,6 +1938,7 @@ id clockwise
 id collapseActionView
 id compartirEsdevenimentButton
 id compartirGrupButton
+id compartirGrupButton2
 id confirm_button
 id constraintLayout
 id constraintLayout2
@@ -2040,6 +2044,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id info
 id inputGroup
 id inputPass
@@ -2158,6 +2163,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id participants_detall_esdeveniment
 id passField
 id password_toggle
 id path
@@ -2299,6 +2305,7 @@ id tv_message
 id ubicacio_detall_esdeveniment
 id unchecked
 id uniform
+id unirseGrupButton
 id unlabeled
 id up
 id useLogo
@@ -2377,8 +2384,8 @@ layout abc_tooltip
 layout activity_chat
 layout activity_create_event
 layout activity_create_group
-layout activity_detaills_grup_membre
 layout activity_detalls_esdeveniment_participant
+layout activity_detalls_grup_membre
 layout activity_home
 layout activity_login
 layout activity_main
@@ -2626,6 +2633,7 @@ string title_meus_grups_esdev
 string title_pro
 string titol_detall_esdeveniment
 string titol_detall_grup
+string ubicacio_detall_esdeveniment
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

@@ -30,7 +30,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="invisible">
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/abandonarEsdevenimentButton"
@@ -64,6 +65,36 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/unirseGrupButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:contentDescription="Abandonar Grup"
+                    android:focusable="true"
+                    app:srcCompat="@drawable/ic_event_join" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/compartirGrupButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:contentDescription="Compartir"
+                    android:focusable="true"
+                    app:srcCompat="@drawable/ic_share" />
+
+            </LinearLayout>
+
         </RelativeLayout>
 
         <TextView
@@ -91,11 +122,11 @@
                 android:text="17/10/2021 9:00" />
 
             <TextView
-                android:id="@+id/ubicacio_detall_esdeveniment"
+                android:id="@+id/participants_detall_esdeveniment"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:text="Barcelona" />
+                android:text="650/8000" />
         </RelativeLayout>
 
         <TextView
@@ -105,6 +136,22 @@
             android:text="@string/descripcio_detall_esdeveniment"
             android:layout_marginBottom="10dp"
             android:layout_marginHorizontal="10dp"/>
+
+        <TextView
+            android:id="@+id/ubicacio_detall_esdeveniment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ubicacio_detall_esdeveniment"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/event_map" />
 
         <!--<RelativeLayout
             android:id="@+id/map_container"

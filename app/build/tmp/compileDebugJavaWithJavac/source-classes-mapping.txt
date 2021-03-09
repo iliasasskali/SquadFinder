@@ -2,8 +2,6 @@ upf/edu/squadfinder/databinding/ActivityChatBinding.java
  upf.edu.squadfinder.databinding.ActivityChatBinding
 upf/edu/squadfinder/databinding/ActivityCreateEventBinding.java
  upf.edu.squadfinder.databinding.ActivityCreateEventBinding
-upf/edu/squadfinder/databinding/ActivityDetaillsGrupMembreBinding.java
- upf.edu.squadfinder.databinding.ActivityDetaillsGrupMembreBinding
 upf/edu/squadfinder/databinding/FragmentEsdevenimentsBinding.java
  upf.edu.squadfinder.databinding.FragmentEsdevenimentsBinding
 upf/edu/squadfinder/databinding/ActivityCreateGroupBinding.java
@@ -32,5 +30,7 @@ upf/edu/squadfinder/databinding/FragmentProBinding.java
  upf.edu.squadfinder.databinding.FragmentProBinding
 upf/edu/squadfinder/databinding/ActivityLoginBinding.java
  upf.edu.squadfinder.databinding.ActivityLoginBinding
+upf/edu/squadfinder/databinding/ActivityDetallsGrupMembreBinding.java
+ upf.edu.squadfinder.databinding.ActivityDetallsGrupMembreBinding
 upf/edu/squadfinder/databinding/ActivityHomeBinding.java
  upf.edu.squadfinder.databinding.ActivityHomeBinding

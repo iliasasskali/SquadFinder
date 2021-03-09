@@ -6,6 +6,6 @@ import android.os.Bundle
 class DetailedGroupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detaills_grup_membre)
+        setContentView(R.layout.activity_detalls_grup_membre)
     }
 }
