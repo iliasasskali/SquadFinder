@@ -49,13 +49,16 @@ class HomeActivity : AppCompatActivity() {
             onCreateButtonClicked(createGroupButton, createEventButton, createButton)
         }
         createGroupButton.setOnClickListener {
-            // Anar a la pantalla de creacio de grups
+            // TODO: Anar a la pantalla de creacio de grups
             Toast.makeText(this, "CREACIÓ GRUP", Toast.LENGTH_SHORT).show()
+            val intentCreateGroup = Intent(this, CreateGroupActivity::class.java).apply {}
+            startActivity(intentCreateGroup)
         }
         createEventButton.setOnClickListener {
-            // Anar a la pantalla de creacio d'esdeveniments
+            // TODO: Anar a la pantalla de creacio d'esdeveniments
             Toast.makeText(this, "CREACIÓ ESDEVENIMENT", Toast.LENGTH_SHORT).show()
-
+            val intentCreateEvent = Intent(this, CreateEventActivity::class.java).apply {}
+            startActivity(intentCreateEvent)
         }
     }
 

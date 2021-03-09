@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SquadFinder">
-        <activity android:name=".DetailedGroupActivity"></activity>
+        <activity android:name=".CreateEventActivity"></activity>
+        <activity android:name=".CreateGroupActivity" />
+        <activity android:name=".DetailedGroupActivity" />
         <activity android:name=".DetailedEventActivity" />
         <activity android:name=".ui.chat.ChatActivity" />
         <activity

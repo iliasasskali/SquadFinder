@@ -1,5 +1,6 @@
 package upf.edu.squadfinder.ui.esdeveniments
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -7,6 +8,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import upf.edu.squadfinder.DetailedEventActivity
+import upf.edu.squadfinder.DetailedGroupActivity
 import upf.edu.squadfinder.R
 
 class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyclerViewAdapter.ViewHolder>() {
@@ -89,9 +92,13 @@ class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyc
         holder.eventUbication.text = eventUbications[position]
         holder.eventImage.setImageResource(eventImages[position])
 
-        holder.itemView.setOnClickListener { v: View ->
-            // TODO: MOSTRAR DETALL ESDEVENIMENT
-            Toast.makeText(v.context, "Clicked on the item", Toast.LENGTH_SHORT).show()
+        if (position == 5) {
+            holder.itemView.setOnClickListener { v: View ->
+                // TODO: MOSTRAR DETALL ESDEVENIMENT
+                // Toast.makeText(v.context, "Clicked on the item", Toast.LENGTH_SHORT).show()
+                val intentDetallEsdeveniment = Intent(v.context, DetailedEventActivity::class.java).apply {}
+                v.context.startActivity(intentDetallEsdeveniment)
+            }
         }
 
     }

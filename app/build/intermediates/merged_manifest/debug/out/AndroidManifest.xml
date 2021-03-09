@@ -30,12 +30,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SquadFinder" >
+        <activity android:name="upf.edu.squadfinder.CreateEventActivity" />
+        <activity android:name="upf.edu.squadfinder.CreateGroupActivity" />
+        <activity android:name="upf.edu.squadfinder.DetailedGroupActivity" />
         <activity android:name="upf.edu.squadfinder.DetailedEventActivity" />
         <activity android:name="upf.edu.squadfinder.ui.chat.ChatActivity" />
         <activity
             android:name="upf.edu.squadfinder.RegisterActivity"
             android:label="@string/title_activity_register" />
-
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
