@@ -18,4 +18,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="titol_detall_esdeveniment">Mitja Marató de Barcelona 2021</string>
     <string name="descripcio_detall_esdeveniment">"L'eDreams Mitja Marató de Barcelona tindrà lloc el 17 d'octubre de 2021 amb l'objectiu de garantir la màxima seguretat dels corredors, públic i organitzadors. Inscriute a https://edreamsmitjabarcelona.com/inscripcion/"</string>
+    <string name="titol_detall_grup">Grup lliga de debat UPF</string>
+    <string name="descripcio_detall_grup">"Grup lliga de debat UPF, obert a tothom. Actualment els debats es fan online degut a la pandèmia, en un futur es faran al campus de la Ciutadella de la Universitat Pompeu Fabra."</string>
+    <string name="ubicacio_detall_esdeveniment">Ubicació: Passeig de Pujades, Barcelona</string>
 </resources>

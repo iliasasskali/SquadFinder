@@ -1,12 +1,16 @@
 package upf.edu.squadfinder.ui.grups
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+import upf.edu.squadfinder.DetailedGroupActivity
+import upf.edu.squadfinder.LoginActivity
 import upf.edu.squadfinder.R
 
 class GrupsRecyclerViewAdapter : RecyclerView.Adapter<GrupsRecyclerViewAdapter.ViewHolder>() {
@@ -80,9 +84,14 @@ class GrupsRecyclerViewAdapter : RecyclerView.Adapter<GrupsRecyclerViewAdapter.V
         holder.groupUbication.text = groupUbications[position]
         holder.groupImage.setImageResource(groupImages[position])
 
-        holder.itemView.setOnClickListener { v: View ->
-            // TODO: MOSTRAR DETALL GRUP
-            Toast.makeText(v.context, "Clicked on the item", Toast.LENGTH_SHORT).show()
+        // DETALL DEL GRUP, FET NOMÉS PEL 3R GRUP
+        if (position == 2) {
+            holder.itemView.setOnClickListener { v: View ->
+                // TODO: MOSTRAR DETALL GRUP
+                // Toast.makeText(v.context, "Clicked on the item", Toast.LENGTH_SHORT).show()
+                val intentDetallGrup = Intent(v.context, DetailedGroupActivity::class.java).apply {}
+                v.context.startActivity(intentDetallGrup)
+            }
         }
 
     }

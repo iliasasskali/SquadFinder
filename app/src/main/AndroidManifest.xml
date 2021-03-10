@@ -13,12 +13,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SquadFinder">
-        <activity android:name=".DetailedEventActivity"></activity>
+        <activity android:name=".CreateEventActivity"></activity>
+        <activity android:name=".CreateGroupActivity" />
+        <activity android:name=".DetailedGroupActivity" />
+        <activity android:name=".DetailedEventActivity" />
         <activity android:name=".ui.chat.ChatActivity" />
         <activity
             android:name=".RegisterActivity"
             android:label="@string/title_activity_register" />
-
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
@@ -26,7 +28,7 @@
         <activity android:name=".LoginActivity" />
         <activity
             android:name=".HomeActivity"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
