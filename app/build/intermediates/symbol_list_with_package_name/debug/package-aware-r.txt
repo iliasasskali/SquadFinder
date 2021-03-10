@@ -1309,6 +1309,7 @@ dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
+dimen app_bar_height
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -1371,6 +1372,7 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -1616,6 +1618,7 @@ dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
 dimen test_mtrl_calendar_day_cornerSize
+dimen text_margin
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1894,6 +1897,7 @@ id all
 id always
 id animateToEnd
 id animateToStart
+id app_bar
 id asConfigured
 id async
 id auto
@@ -1970,7 +1974,6 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
-id detall_esdeveniment_image
 id detall_grup_image
 id dialog_button
 id dimensions
@@ -2002,6 +2005,7 @@ id espais_detall_grup
 id et_message
 id event_dateTime
 id event_image
+id event_map
 id event_title
 id event_ubication
 id exitUntilCollapsed
@@ -2047,7 +2051,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id info
 id inputEmail
 id inputGroup
@@ -2293,6 +2296,8 @@ id titol_detall_esdeveniment
 id titol_detall_grup
 id titol_membres_detall_grup
 id toggle
+id toolbar
+id toolbar_layout
 id top
 id topPanel
 id touch_outside
@@ -2395,6 +2400,7 @@ layout activity_home
 layout activity_login
 layout activity_main
 layout activity_register
+layout contingut_detall_esdeveniment
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2556,6 +2562,7 @@ string common_signin_button_text_long
 string crear
 string crear_esdeveniment
 string crear_grup
+string data_detall_esdeveniment
 string descripcio_detall_esdeveniment
 string descripcio_detall_grup
 string error_icon_content_description
@@ -2623,6 +2630,7 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
+string participants_detall_esdeveniment
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2648,6 +2656,9 @@ style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
 style AppTheme
+style AppTheme_AppBarOverlay
+style AppTheme_NoActionBar
+style AppTheme_PopupOverlay
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

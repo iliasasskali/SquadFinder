@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SquadFinder">
-        <activity android:name=".CreateEventActivity"></activity>
+        <activity android:name=".MainActivity2"></activity>
+        <activity android:name=".CreateEventActivity" />
         <activity android:name=".CreateGroupActivity" />
         <activity android:name=".DetailedGroupActivity" />
         <activity android:name=".DetailedEventActivity" />

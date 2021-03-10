@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DetailedEventActivity"
+    tools:showIn="@layout/activity_detalls_esdeveniment_participant"
+    android:layout_marginTop="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titol_detall_esdeveniment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titol_detall_esdeveniment"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <RelativeLayout
+            android:id="@+id/membres_detall_grup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp">
+
+            <TextView
+                android:id="@+id/data_detall_esdeveniment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/data_detall_esdeveniment" />
+
+            <TextView
+                android:id="@+id/participants_detall_esdeveniment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/participants_detall_esdeveniment" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/descripcio_detall_esdeveniment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcio_detall_esdeveniment"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:id="@+id/ubicacio_detall_esdeveniment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ubicacio_detall_esdeveniment"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <ImageView
+            android:id="@+id/event_map"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/event_map"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
