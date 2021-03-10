@@ -26,10 +26,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intentRegister)
         }
 
-        val chatButton = findViewById<Button>(R.id.chatButton)
+        /*val chatButton = findViewById<Button>(R.id.chatButton)
         chatButton.setOnClickListener {
             val intentChat = Intent(this, ChatActivity::class.java).apply {}
             startActivity(intentChat)
-        }
+        }*/
     }
 }

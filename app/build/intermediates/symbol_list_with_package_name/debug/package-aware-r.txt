@@ -1919,7 +1919,6 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
-id chatButton
 id chatEsdevenimentButton
 id chatGrupButton
 id checkbox
