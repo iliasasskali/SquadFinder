@@ -26,6 +26,7 @@
                 android:contentDescription="imatge esdeveniment" />
 
             <LinearLayout
+                android:id="@+id/esdevenimentParticipantButtons"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -66,6 +67,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/esdevenimentNoParticipantButtons"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -74,7 +76,7 @@
                 android:visibility="visible">
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/unirseGrupButton"
+                    android:id="@+id/unirseEsdevenimentButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
@@ -84,7 +86,7 @@
                     app:srcCompat="@drawable/ic_event_join" />
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/compartirGrupButton2"
+                    android:id="@+id/compartirEsdevenimentButton2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"

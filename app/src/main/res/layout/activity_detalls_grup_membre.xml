@@ -31,7 +31,8 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
                 android:orientation="horizontal"
-                android:visibility="invisible">
+                android:visibility="invisible"
+                android:id="@+id/grupMembreButtons">
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/abandonarGrupButton"
@@ -71,7 +72,8 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
                 android:orientation="horizontal"
-                android:visibility="visible">
+                android:visibility="visible"
+                android:id="@+id/grupNoMembreButtons">
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/unirseGrupButton"

@@ -1936,6 +1936,7 @@ id clip_vertical
 id clockwise
 id collapseActionView
 id compartirEsdevenimentButton
+id compartirEsdevenimentButton2
 id compartirGrupButton
 id compartirGrupButton2
 id confirm_button
@@ -1995,6 +1996,8 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id esdevenimentNoParticipantButtons
+id esdevenimentParticipantButtons
 id espais_detall_grup
 id et_message
 id event_dateTime
@@ -2028,6 +2031,8 @@ id group_name
 id group_ubication
 id grouping
 id groups
+id grupMembreButtons
+id grupNoMembreButtons
 id guideline
 id header_title
 id hideable
@@ -2304,6 +2309,7 @@ id tv_message
 id ubicacio_detall_esdeveniment
 id unchecked
 id uniform
+id unirseEsdevenimentButton
 id unirseGrupButton
 id unlabeled
 id up
