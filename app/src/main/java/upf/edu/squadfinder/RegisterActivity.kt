@@ -79,8 +79,9 @@ class RegisterActivity : AppCompatActivity() {
 
     // this event will enable the back function to the button on press
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val myIntent = Intent(this, MainActivity::class.java).apply {}
-        startActivity(myIntent)
+        //val myIntent = Intent(this, MainActivity::class.java).apply {}
+        //startActivity(myIntent)
+        finish()
         return true
     }
 

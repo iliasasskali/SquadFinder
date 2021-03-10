@@ -17,6 +17,7 @@ import upf.edu.squadfinder.utils.Time
 import kotlinx.android.synthetic.main.activity_chat.*
 import kotlinx.coroutines.*
 import upf.edu.squadfinder.R
+import upf.edu.squadfinder.ui.grups.GrupsRecyclerViewAdapter
 
 class ChatActivity : AppCompatActivity() {
 
@@ -151,8 +152,8 @@ class ChatActivity : AppCompatActivity() {
 
     // this event will enable the back function to the button on press
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val myIntent = Intent(this, MainActivity::class.java).apply {}
-        startActivity(myIntent)
+        //finish the activity, this function let us go back to the previous activity
+        finish();
         return true
     }
 }

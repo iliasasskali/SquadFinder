@@ -88,7 +88,7 @@ class GrupsRecyclerViewAdapter : RecyclerView.Adapter<GrupsRecyclerViewAdapter.V
         if (position == 2) {
             holder.itemView.setOnClickListener { v: View ->
                 // TODO: MOSTRAR DETALL GRUP
-                // Toast.makeText(v.context, "Clicked on the item", Toast.LENGTH_SHORT).show()
+                //Toast.makeText(v.context, "Clicked on the item", Toast.LENGTH_SHORT).show()
                 val intentDetallGrup = Intent(v.context, DetailedGroupActivity::class.java).apply {}
                 v.context.startActivity(intentDetallGrup)
             }
