@@ -51,8 +51,9 @@ class LoginActivity : AppCompatActivity() {
             }
             else {
                 var exists : Boolean = false
+                // Checking if the user exists in the "database"
                 for (u in usersList){
-                    if ((userBoxString == u.userName) && (passBoxString == u.userPassword)){
+                    if (((userBoxString == u.userName) || (userBoxString == u.userEmail)) && (passBoxString == u.userPassword)){
                         val intentHome = Intent(this, HomeActivity::class.java).apply {}
                         startActivity(intentHome)
                         exists = true
@@ -81,14 +82,16 @@ class LoginActivity : AppCompatActivity() {
         //reading the file line to line
         assetInStream.bufferedReader().forEachLine {
             //Splitting the line by one space
-            var (string1, string2) = it.split(" ");
+            var (string1, string2, string3) = it.split(" ");
             string1 = string1.filter { !it.isWhitespace() } //for the name
-            string2 = string2.filter { !it.isWhitespace() } //for the password
+            string2 = string2.filter { !it.isWhitespace() } //for the email
+            string3 = string3.filter { !it.isWhitespace() } //for the password
 
             string1 = string1.toLowerCase()
             string2 = string2.toLowerCase()
+            //string3 = string2.toLowerCase() the passward can be in lower or uppercase
 
-            usersList.add(User(string1, string2))  //Saving the class inside userList
+            usersList.add(User(string1, string2, string3))  //Saving the class inside userList
         }
 
         return usersList;

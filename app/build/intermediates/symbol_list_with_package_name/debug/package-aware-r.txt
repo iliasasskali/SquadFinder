@@ -1940,7 +1940,6 @@ id compartirGrupButton
 id compartirGrupButton2
 id confirm_button
 id constraintLayout
-id constraintLayout2
 id container
 id content
 id contentPanel
@@ -2045,6 +2044,7 @@ id ignoreRequest
 id image
 id imageView
 id info
+id inputEmail
 id inputGroup
 id inputPass
 id inputPass2
