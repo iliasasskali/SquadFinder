@@ -1974,7 +1974,6 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
-id detall_grup_image
 id dialog_button
 id dimensions
 id direct
@@ -2062,6 +2061,12 @@ id integrant2_image
 id integrant2_nom
 id integrant3_image
 id integrant3_nom
+id integrant4_image
+id integrant4_nom
+id integrant5_image
+id integrant5_nom
+id integrant6_image
+id integrant6_nom
 id integrants_detall_grup
 id introText
 id invisible
@@ -2394,13 +2399,14 @@ layout abc_tooltip
 layout activity_chat
 layout activity_create_event
 layout activity_create_group
+layout activity_detall_grup
 layout activity_detalls_esdeveniment_participant
-layout activity_detalls_grup_membre
 layout activity_home
 layout activity_login
 layout activity_main
 layout activity_register
 layout contingut_detall_esdeveniment
+layout contingut_detall_grup
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

@@ -4,12 +4,12 @@
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\anim_to_botton_anim.xml.flat",
-        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\anim\\to_botton_anim.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pro.xml.flat",
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\fragment_pro.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\anim_to_botton_anim.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\anim\\to_botton_anim.xml"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -24,12 +24,12 @@
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
-        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -42,6 +42,10 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detall_grup.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\activity_detall_grup.xml"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\anim_from_botton_anim.xml.flat",
@@ -68,8 +72,8 @@
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\anim\\rotate_close_anim.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalls_grup_membre.xml.flat",
-        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\activity_detalls_grup_membre.xml"
+        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_contingut_detall_grup.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\contingut_detall_grup.xml"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -118,10 +122,6 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_grups.xml.flat",
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\fragment_grups.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_activity_detalls_grup_membre.xml.flat",
-        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout-v26\\activity_detalls_grup_membre.xml"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_runnning_event.jpg.flat",
