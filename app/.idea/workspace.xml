@@ -24,7 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0b75581-c6f2-4c24-a1f1-85fe912d3db1" name="Default Changelist" comment="" />
+    <list default="true" id="b0b75581-c6f2-4c24-a1f1-85fe912d3db1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,10 +198,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="221" y="84" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1615376808220" />
-    <state x="347" y="73" width="587" height="592" key="find.popup" timestamp="1615376798919">
+    <state x="347" y="73" width="587" height="592" key="find.popup" timestamp="1615489125377">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="347" y="73" width="587" height="592" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1615376798919" />
+    <state x="347" y="73" width="587" height="592" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1615489125377" />
     <state x="299" y="-6" width="672" height="676" key="search.everywhere.popup" timestamp="1615375488390">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
