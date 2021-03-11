@@ -42,4 +42,5 @@
     <string name="ubicacio_detall_esdeveniment"><p><strong>Ubicació: </strong>Passeig de Pujades, Barcelona</p></string>
     <string name="participants_detall_esdeveniment"><p><strong>Participants: </strong>650/8000</p></string>
     <string name="data_detall_esdeveniment"><p><strong>Data:</strong> 17/10/2021 8:30</p></string>
+    <string name="pro_slogan">Uneix-te a PRO i Treu el Millor de SquadFinder</string>
 </resources>
