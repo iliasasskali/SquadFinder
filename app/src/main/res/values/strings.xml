@@ -17,6 +17,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="titol_detall_esdeveniment">Mitja Marató de Barcelona 2021</string>
+    <!-- TODO: ' No els detecta be-->
     <string name="descripcio_detall_esdeveniment">
         <p>L&amp;#39;eDreams Mitja Marató de Barcelona tindrá lloc el 17 d&amp;#39;octubre de 2021
             amb l&amp;#39;objectiu de garantir la máxima seguretat dels corredors, públic i organitzadors.</p>

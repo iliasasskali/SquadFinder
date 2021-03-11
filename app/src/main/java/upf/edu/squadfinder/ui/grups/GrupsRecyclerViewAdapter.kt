@@ -48,10 +48,10 @@ class GrupsRecyclerViewAdapter : RecyclerView.Adapter<GrupsRecyclerViewAdapter.V
         "Barcelona")
 
     private val groupImages = arrayOf(
-        R.drawable.upf,
-        R.drawable.upf,
-        R.drawable.upf,
-        R.drawable.upf,
+        R.drawable.running,
+        R.drawable.gaming2,
+        R.drawable.lligadebat,
+        R.drawable.cycling,
         R.drawable.upf,
         R.drawable.upf
     )

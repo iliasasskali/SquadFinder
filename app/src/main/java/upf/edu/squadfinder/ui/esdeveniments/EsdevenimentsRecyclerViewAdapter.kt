@@ -46,22 +46,15 @@ class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyc
         "Girona",
         "Barcelona")
 
+
     private val eventImages = arrayOf(
-        R.drawable.upf,
-        R.drawable.upf,
-        R.drawable.upf,
-        R.drawable.upf,
-        R.drawable.upf,
-        R.drawable.upf
-    )
-    /*private val eventImages = arrayOf(
         R.drawable.cycling,
         R.drawable.gaming,
         R.drawable.concert,
         R.drawable.upf,
         R.drawable.protest,
-        R.drawable.running
-    )*/
+        R.drawable.runnning_event
+    )
 
     inner class ViewHolder (itemView: View) : RecyclerView.ViewHolder(itemView) {
         var eventImage : ImageView
