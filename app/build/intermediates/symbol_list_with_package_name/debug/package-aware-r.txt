@@ -2013,6 +2013,7 @@ id et_message
 id event_dateTime
 id event_image
 id event_map
+id event_participants
 id event_title
 id event_ubication
 id exitUntilCollapsed
