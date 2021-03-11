@@ -38,6 +38,14 @@ class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyc
         "25/04/2021, 09:00",
         "17/10/2021, 10:00")
 
+    private val eventParticipants = arrayOf(
+            "380/1000",
+            "6/40",
+            "120/8000",
+            "10/50",
+            "403/19",
+            "650/8000")
+
     private val eventUbications = arrayOf(
         "Vic",
         "Online",
@@ -46,22 +54,15 @@ class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyc
         "Girona",
         "Barcelona")
 
+
     private val eventImages = arrayOf(
-        R.drawable.upf,
-        R.drawable.upf,
-        R.drawable.upf,
-        R.drawable.upf,
-        R.drawable.upf,
-        R.drawable.upf
-    )
-    /*private val eventImages = arrayOf(
         R.drawable.cycling,
         R.drawable.gaming,
         R.drawable.concert,
         R.drawable.upf,
         R.drawable.protest,
-        R.drawable.running
-    )*/
+        R.drawable.runnning_event
+    )
 
     inner class ViewHolder (itemView: View) : RecyclerView.ViewHolder(itemView) {
         var eventImage : ImageView
@@ -69,6 +70,7 @@ class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyc
         //var eventDetail : TextView
         var eventDate : TextView
         var eventUbication : TextView
+        var eventParticipants : TextView
 
         init {
             eventImage = itemView.findViewById(R.id.event_image)
@@ -76,6 +78,7 @@ class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyc
             //eventDetail = itemView.findViewById(R.id.event_detail)
             eventDate = itemView.findViewById(R.id.event_dateTime)
             eventUbication = itemView.findViewById(R.id.event_ubication)
+            eventParticipants = itemView.findViewById(R.id.event_participants)
         }
     }
 
@@ -91,6 +94,7 @@ class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyc
         holder.eventDate.text = eventDates[position]
         holder.eventUbication.text = eventUbications[position]
         holder.eventImage.setImageResource(eventImages[position])
+        holder.eventParticipants.text = eventParticipants[position]
 
         if (position == 5) {
             holder.itemView.setOnClickListener { v: View ->

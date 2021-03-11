@@ -1309,6 +1309,7 @@ dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
+dimen app_bar_height
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -1371,6 +1372,7 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -1616,6 +1618,7 @@ dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
 dimen test_mtrl_calendar_day_cornerSize
+dimen text_margin
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1712,6 +1715,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable band
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1739,7 +1743,10 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable concert
 drawable cycling
+drawable cycling2
+drawable debat
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1747,6 +1754,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable event_map
+drawable gaming
+drawable gaming2
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_add
@@ -1807,8 +1816,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable protest
 drawable receive_round_box
 drawable round_button
+drawable running
 drawable runnning_event
 drawable send_round_box
 drawable test_custom_background
@@ -1894,6 +1905,7 @@ id all
 id always
 id animateToEnd
 id animateToStart
+id app_bar
 id asConfigured
 id async
 id auto
@@ -1936,6 +1948,7 @@ id clip_vertical
 id clockwise
 id collapseActionView
 id compartirEsdevenimentButton
+id compartirEsdevenimentButton2
 id compartirGrupButton
 id compartirGrupButton2
 id confirm_button
@@ -1969,8 +1982,6 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
-id detall_esdeveniment_image
-id detall_grup_image
 id dialog_button
 id dimensions
 id direct
@@ -1995,10 +2006,14 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id esdevenimentNoParticipantButtons
+id esdevenimentParticipantButtons
 id espais_detall_grup
 id et_message
 id event_dateTime
 id event_image
+id event_map
+id event_participants
 id event_title
 id event_ubication
 id exitUntilCollapsed
@@ -2028,6 +2043,8 @@ id group_name
 id group_ubication
 id grouping
 id groups
+id grupMembreButtons
+id grupNoMembreButtons
 id guideline
 id header_title
 id hideable
@@ -2042,7 +2059,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id info
 id inputEmail
 id inputGroup
@@ -2054,6 +2070,12 @@ id integrant2_image
 id integrant2_nom
 id integrant3_image
 id integrant3_nom
+id integrant4_image
+id integrant4_nom
+id integrant5_image
+id integrant5_nom
+id integrant6_image
+id integrant6_nom
 id integrants_detall_grup
 id introText
 id invisible
@@ -2288,6 +2310,8 @@ id titol_detall_esdeveniment
 id titol_detall_grup
 id titol_membres_detall_grup
 id toggle
+id toolbar
+id toolbar_layout
 id top
 id topPanel
 id touch_outside
@@ -2304,6 +2328,7 @@ id tv_message
 id ubicacio_detall_esdeveniment
 id unchecked
 id uniform
+id unirseEsdevenimentButton
 id unirseGrupButton
 id unlabeled
 id up
@@ -2383,12 +2408,14 @@ layout abc_tooltip
 layout activity_chat
 layout activity_create_event
 layout activity_create_group
+layout activity_detall_grup
 layout activity_detalls_esdeveniment_participant
-layout activity_detalls_grup_membre
 layout activity_home
 layout activity_login
 layout activity_main
 layout activity_register
+layout contingut_detall_esdeveniment
+layout contingut_detall_grup
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2550,6 +2577,7 @@ string common_signin_button_text_long
 string crear
 string crear_esdeveniment
 string crear_grup
+string data_detall_esdeveniment
 string descripcio_detall_esdeveniment
 string descripcio_detall_grup
 string error_icon_content_description
@@ -2617,6 +2645,7 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
+string participants_detall_esdeveniment
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2642,6 +2671,9 @@ style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
 style AppTheme
+style AppTheme_AppBarOverlay
+style AppTheme_NoActionBar
+style AppTheme_PopupOverlay
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

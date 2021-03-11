@@ -17,8 +17,29 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="titol_detall_esdeveniment">Mitja Marató de Barcelona 2021</string>
-    <string name="descripcio_detall_esdeveniment">"L'eDreams Mitja Marató de Barcelona tindrà lloc el 17 d'octubre de 2021 amb l'objectiu de garantir la màxima seguretat dels corredors, públic i organitzadors. Inscriute a https://edreamsmitjabarcelona.com/inscripcion/"</string>
+    <!-- TODO: ' No els detecta be-->
+    <string name="descripcio_detall_esdeveniment">
+        <p>L&amp;#39;eDreams Mitja Marató de Barcelona tindrá lloc el 17 d&amp;#39;octubre de 2021
+            amb l&amp;#39;objectiu de garantir la máxima seguretat dels corredors, públic i organitzadors.</p>
+        <p><br /></p>
+        <p>Fira del corredor: Palau de Congressos de Barcelona (Av. Maria Cristina).</p>
+        <p><br /></p>
+        <p>Horari: dijous 14 d&amp;#39;octubre de 17h a 21h, divendres 15 d&amp;#39;octubre de 10h a 21h
+            i dissabte 16 d&amp;#39;octubre de 9h a 20h.</p>
+        <p><br /></p>
+        <p>Tots els inscrits hauran de recollir el seu dorsal, o dorsal-xip, la bossa del corredor
+            i la samarreta a la Fira del Corredor. És obligatòria la presentació;
+            del DNI o passaport juntament amb el mail on s&amp;#39;indica el número de dorsal
+            (si no disposes d&amp;#39;ell, el podrás descarregar de la web un cop estiguin adjudicats).
+            Si no poguessis passar a recollir-lo en els dies indicats, pot fer-ho una altra persona per tu,
+            presentant fotocópia del teu DNI o passaport juntament amb el resguard de la teva inscripció
+            i l&amp;#39;e-mail que indica el teu número de dorsal.</p>
+        <p><br /></p>
+        <p>Inscriute a https://edreamsmitjabarcelona.com/inscripcion/</p>
+    </string>
     <string name="titol_detall_grup">Grup lliga de debat UPF</string>
     <string name="descripcio_detall_grup">"Grup lliga de debat UPF, obert a tothom. Actualment els debats es fan online degut a la pandèmia, en un futur es faran al campus de la Ciutadella de la Universitat Pompeu Fabra."</string>
-    <string name="ubicacio_detall_esdeveniment">Ubicació: Passeig de Pujades, Barcelona</string>
+    <string name="ubicacio_detall_esdeveniment"><p><strong>Ubicació: </strong>Passeig de Pujades, Barcelona</p></string>
+    <string name="participants_detall_esdeveniment"><p><strong>Participants: </strong>650/8000</p></string>
+    <string name="data_detall_esdeveniment"><p><strong>Data:</strong> 17/10/2021 8:30</p></string>
 </resources>

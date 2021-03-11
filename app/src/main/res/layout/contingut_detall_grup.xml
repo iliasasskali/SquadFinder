@@ -1,101 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<androidx.core.widget.NestedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailedGroupActivity">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DetailedGroupActivity"
+    tools:showIn="@layout/activity_detall_grup"
+    android:layout_marginTop="30dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="325dp"
-            tools:ignore="MissingConstraints">
-
-            <ImageView
-                android:id="@+id/detall_grup_image"
-                android:layout_width="fill_parent"
-                android:layout_height="300dp"
-                android:contentDescription="imatge grup"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/lligadebat" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
-                android:orientation="horizontal"
-                android:visibility="invisible">
-
-                <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/abandonarGrupButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:clickable="true"
-                    android:contentDescription="Abandonar Grup"
-                    android:focusable="true"
-                    app:srcCompat="@drawable/ic_exit" />
-
-                <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/compartirGrupButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:clickable="true"
-                    android:contentDescription="Compartir"
-                    android:focusable="true"
-                    app:srcCompat="@drawable/ic_share" />
-
-                <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/chatGrupButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:clickable="true"
-                    android:contentDescription="Chat"
-                    android:focusable="true"
-                    app:srcCompat="@drawable/ic_chat" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
-                android:orientation="horizontal"
-                android:visibility="visible">
-
-                <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/unirseGrupButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:clickable="true"
-                    android:contentDescription="Abandonar Grup"
-                    android:focusable="true"
-                    app:srcCompat="@drawable/ic_join_group" />
-
-                <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/compartirGrupButton2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:clickable="true"
-                    android:contentDescription="Compartir"
-                    android:focusable="true"
-                    app:srcCompat="@drawable/ic_share" />
-
-            </LinearLayout>
-
-        </RelativeLayout>
 
         <TextView
             android:id="@+id/titol_detall_grup"
@@ -226,12 +144,69 @@
                     android:text="Nom integrant 3"
                     android:layout_marginStart="10dp"
                     android:layout_gravity="center"/>
-
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
 
+                <ImageView
+                    android:id="@+id/integrant4_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/integrant4_nom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nom integrant 4"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/integrant5_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/integrant5_nom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nom integrant 5"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/integrant6_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/integrant6_nom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nom integrant 6"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
         </LinearLayout>
-        <!-- TODO: API 26, USING API 23 -->
 
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
