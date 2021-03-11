@@ -24,16 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0b75581-c6f2-4c24-a1f1-85fe912d3db1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/users.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/LoginActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/RegisterActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/RegisterActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/data/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/data/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_register.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0b75581-c6f2-4c24-a1f1-85fe912d3db1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,22 +175,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="488" y="148" key="AndroidCreateXmlResourceDialog/0.0.1280.680@0.0.1280.680" timestamp="1615062283660" />
-    <state width="1236" height="228" key="GridCell.Tab.0.bottom" timestamp="1615388624400">
+    <state width="1236" height="228" key="GridCell.Tab.0.bottom" timestamp="1615389148606">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="228" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615388624400" />
-    <state width="1236" height="228" key="GridCell.Tab.0.center" timestamp="1615388624399">
+    <state width="1236" height="228" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615389148606" />
+    <state width="1236" height="228" key="GridCell.Tab.0.center" timestamp="1615389148605">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="228" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615388624399" />
-    <state width="1236" height="228" key="GridCell.Tab.0.left" timestamp="1615388624399">
+    <state width="1236" height="228" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615389148605" />
+    <state width="1236" height="228" key="GridCell.Tab.0.left" timestamp="1615389148605">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="228" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615388624399" />
-    <state width="1236" height="228" key="GridCell.Tab.0.right" timestamp="1615388624399">
+    <state width="1236" height="228" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615389148605" />
+    <state width="1236" height="228" key="GridCell.Tab.0.right" timestamp="1615389148605">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="228" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615388624399" />
+    <state width="1236" height="228" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615389148605" />
     <state x="221" y="84" key="IDE.errors.dialog" timestamp="1615376808220">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
