@@ -16,12 +16,12 @@ import upf.edu.squadfinder.R
 class GrupsRecyclerViewAdapter : RecyclerView.Adapter<GrupsRecyclerViewAdapter.ViewHolder>() {
 
     private val groupNames = arrayOf(
-        "Grup Running BCN",
-        "CsGo Team",
+        "Grup Running Ossona",
+        "CsGo Team \uD83D\uDCAA\uD83D\uDC8E",
         "Lliga de Debat UPF",
-        "Grup 4",
-        "Grup 5",
-        "Grup 6")
+        "Federació Cat. Ciclisme",
+        "Club Tennis Gironna",
+        "Club de Fans de Jar Jar")
 
     /*private val groupDetails = arrayOf(
             "Començarem a Vic i farem la ruta...",
@@ -34,10 +34,10 @@ class GrupsRecyclerViewAdapter : RecyclerView.Adapter<GrupsRecyclerViewAdapter.V
     private val groupMembers = arrayOf(
         "13/1000",
         "4/10",
-        "4/5",
+        "6/10",
         "134/1000",
         "97/100",
-        "11/25")
+        "1/25")
 
     private val groupUbications = arrayOf(
         "Vic",
@@ -52,8 +52,8 @@ class GrupsRecyclerViewAdapter : RecyclerView.Adapter<GrupsRecyclerViewAdapter.V
         R.drawable.gaming2,
         R.drawable.lligadebat,
         R.drawable.cycling,
-        R.drawable.upf,
-        R.drawable.upf
+        R.drawable.tennis,
+        R.drawable.jarjar
     )
 
     inner class ViewHolder (itemView: View) : RecyclerView.ViewHolder(itemView) {

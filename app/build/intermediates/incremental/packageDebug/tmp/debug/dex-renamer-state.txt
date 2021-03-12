@@ -1,7 +1,7 @@
-#Fri Mar 12 16:57:05 CET 2021
-base.0=C\:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Fri Mar 12 17:31:01 CET 2021
+base.0=/home/aldric/Desktop/SquadFinder Temp/4/SquadFinder/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=/home/aldric/Desktop/SquadFinder Temp/4/SquadFinder/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
