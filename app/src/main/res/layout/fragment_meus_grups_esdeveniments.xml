@@ -23,13 +23,13 @@
             android:id="@+id/meus_grups"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Meus grups:"
+            android:text="Meus Esdeveniments:"
             android:layout_margin="10dp"
             android:textStyle="bold"
             android:textSize="16sp"/>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerViewMeusGrups"
+            android:id="@+id/recyclerViewMeusEsdeveniments"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginBottom="54dp"
@@ -40,13 +40,13 @@
             android:id="@+id/meus_esdeveniments"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Meus Esdeveniments:"
+            android:text="Meus Grups:"
             android:layout_margin="10dp"
             android:textStyle="bold"
             android:textSize="16sp"/>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerViewMeusEsdeveniments"
+            android:id="@+id/recyclerViewMeusGrups"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginBottom="54dp"
