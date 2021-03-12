@@ -54,10 +54,9 @@ class MeusEsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<MeusEsdevenime
         holder.eventImage.setImageResource(eventImages[position])
         holder.eventParticipants.text = eventParticipants[position]
 
-        if (position == 5) {
+        // Obrim el detall esdeveniment per l'esdeveniment seguent:
+        if (eventTitles[position] == "Mitja Marató de Barcelona") {
             holder.itemView.setOnClickListener { v: View ->
-                // TODO: MOSTRAR DETALL ESDEVENIMENT
-                // Toast.makeText(v.context, "Clicked on the item", Toast.LENGTH_SHORT).show()
                 val intentDetallEsdeveniment = Intent(v.context, DetailedEventActivity::class.java).apply {}
                 v.context.startActivity(intentDetallEsdeveniment)
             }

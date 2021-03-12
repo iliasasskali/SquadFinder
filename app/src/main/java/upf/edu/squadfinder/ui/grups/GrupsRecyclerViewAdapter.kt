@@ -18,7 +18,7 @@ class GrupsRecyclerViewAdapter : RecyclerView.Adapter<GrupsRecyclerViewAdapter.V
     private val groupNames = arrayOf(
         "Grup Running BCN",
         "CsGo Team",
-        "Grup debat UPF",
+        "Lliga de Debat UPF",
         "Grup 4",
         "Grup 5",
         "Grup 6")

@@ -13,7 +13,7 @@ import java.security.AccessController.getContext
 
 class MeusGrupsRecyclerViewAdapter : RecyclerView.Adapter<MeusGrupsRecyclerViewAdapter.ViewHolder>() {
 
-    private val groupNames = arrayOf("Grup debat UPF")
+    private val groupNames = arrayOf("Lliga de Debat UPF")
     private val groupMembers = arrayOf("4/5")
     private val groupUbications = arrayOf("Barcelona")
     private val groupImages = arrayOf(R.drawable.lligadebat)
@@ -44,7 +44,8 @@ class MeusGrupsRecyclerViewAdapter : RecyclerView.Adapter<MeusGrupsRecyclerViewA
         holder.groupImage.setImageResource(groupImages[position])
         holder.groupMembers.text = groupMembers[position]
 
-        if (position == 5) {
+        // Obrim el detall grup pel grup seguent:
+        if (groupNames[position].equals("Lliga de Debat UPF")) {
             holder.itemView.setOnClickListener { v: View ->
                 val intentDetallGrup = Intent(v.context, DetailedGroupActivity::class.java).apply {}
                 v.context.startActivity(intentDetallGrup)
