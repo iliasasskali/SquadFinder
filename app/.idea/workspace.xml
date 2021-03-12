@@ -25,7 +25,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b75581-c6f2-4c24-a1f1-85fe912d3db1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/meusGrupsEsdeveniments/MeusGERecyclerViewAdapter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -47,6 +46,7 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/HomeActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/meusGrupsEsdeveniments/MeusGEFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/upf/edu/squadfinder/ui/meusGrupsEsdeveniments/MeusGEFragment.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_fragment_meus_grups_esdeveniments.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_fragment_meus_grups_esdeveniments.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_fragment_pro.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_fragment_pro.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
@@ -71,6 +71,7 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
@@ -116,10 +117,7 @@
       <change beforePath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/HomeActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/meusGrupsEsdeveniments/MeusGEFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kotlin-classes/debug/upf/edu/squadfinder/ui/meusGrupsEsdeveniments/MeusGEFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/CreateEventActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/CreateEventActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/esdeveniments/EsdevenimentsRecyclerViewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/esdeveniments/EsdevenimentsRecyclerViewAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/meusGrupsEsdeveniments/MeusGEFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/upf/edu/squadfinder/ui/meusGrupsEsdeveniments/MeusGEFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_meus_grups_esdeveniments.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_meus_grups_esdeveniments.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_pro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_pro.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,9 +310,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="484" y="113" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1615504797703" />
-    <state x="299" y="-6" width="672" height="676" key="search.everywhere.popup" timestamp="1615548229547">
+    <state x="299" y="-6" width="672" height="676" key="search.everywhere.popup" timestamp="1615552507830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="299" y="-6" width="672" height="676" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1615548229547" />
+    <state x="299" y="-6" width="672" height="676" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1615552507830" />
   </component>
 </project>
