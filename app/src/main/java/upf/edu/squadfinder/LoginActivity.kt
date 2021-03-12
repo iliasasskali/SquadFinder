@@ -65,14 +65,6 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    // this event will enable the back function to the button on press
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        //val myIntent = Intent(this, MainActivity::class.java).apply {}
-        //startActivity(myIntent)
-        finish()
-        return true
-    }
-
     //get the list of users from "database" ==> users.txt
     fun getListOfUsers(): List<User> {
         //list to save the users in a array of Users
@@ -95,6 +87,14 @@ class LoginActivity : AppCompatActivity() {
         }
 
         return usersList;
+    }
+
+    // this event will enable the back function to the button on press
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        //val myIntent = Intent(this, MainActivity::class.java).apply {}
+        //startActivity(myIntent)
+        finish()
+        return true
     }
 }
 
