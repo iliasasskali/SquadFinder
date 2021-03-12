@@ -65,7 +65,7 @@
             android:layout_margin="5dp"
             android:clickable="true"
             android:contentDescription="No assistiré"
-            android:backgroundTint="@color/red"
+            android:backgroundTint="@color/warningRed"
             android:focusable="true"
             app:srcCompat="@drawable/ic_event_delete" />
 
@@ -77,7 +77,8 @@
             android:clickable="true"
             android:contentDescription="Compartir"
             android:focusable="true"
-            app:srcCompat="@drawable/ic_share" />
+            app:srcCompat="@drawable/ic_share"
+            android:backgroundTint="@color/shareBlue" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/chatEsdevenimentButton"
@@ -87,7 +88,8 @@
             android:clickable="true"
             android:contentDescription="Chat"
             android:focusable="true"
-            app:srcCompat="@drawable/ic_chat" />
+            app:srcCompat="@drawable/ic_chat"
+            android:backgroundTint="@color/join" />
 
     </LinearLayout>
 
@@ -111,7 +113,8 @@
             android:clickable="true"
             android:contentDescription="Abandonar Grup"
             android:focusable="true"
-            app:srcCompat="@drawable/ic_event_join" />
+            app:srcCompat="@drawable/ic_event_join"
+            android:backgroundTint="@color/join"/>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/compartirEsdevenimentButton2"
@@ -123,7 +126,8 @@
             android:focusable="true"
             app:srcCompat="@drawable/ic_share"
             app:layout_anchor="@id/app_bar"
-            app:layout_anchorGravity="bottom|end"/>
+            app:layout_anchorGravity="bottom|end"
+            android:backgroundTint="@color/shareBlue" />
 
     </LinearLayout>
 
