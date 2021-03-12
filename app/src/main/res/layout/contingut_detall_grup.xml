@@ -101,7 +101,7 @@
                     android:id="@+id/integrant1_nom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nom integrant 1"
+                    android:text="Quirze Arbó"
                     android:layout_marginStart="10dp"
                     android:layout_gravity="center"/>
             </LinearLayout>
@@ -121,7 +121,7 @@
                     android:id="@+id/integrant2_nom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nom integrant 2"
+                    android:text="Aleix Payet"
                     android:layout_marginStart="10dp"
                     android:layout_gravity="center"/>
             </LinearLayout>
@@ -141,7 +141,7 @@
                     android:id="@+id/integrant3_nom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nom integrant 3"
+                    android:text="Frederic Alabern"
                     android:layout_marginStart="10dp"
                     android:layout_gravity="center"/>
             </LinearLayout>
@@ -161,7 +161,7 @@
                     android:id="@+id/integrant4_nom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nom integrant 4"
+                    android:text="Joaquim Navares"
                     android:layout_marginStart="10dp"
                     android:layout_gravity="center"/>
             </LinearLayout>
@@ -181,7 +181,7 @@
                     android:id="@+id/integrant5_nom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nom integrant 5"
+                    android:text="Adalbert Pérez"
                     android:layout_marginStart="10dp"
                     android:layout_gravity="center"/>
             </LinearLayout>
@@ -201,7 +201,7 @@
                     android:id="@+id/integrant6_nom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nom integrant 6"
+                    android:text="Úmar Fluvia"
                     android:layout_marginStart="10dp"
                     android:layout_gravity="center"/>
             </LinearLayout>

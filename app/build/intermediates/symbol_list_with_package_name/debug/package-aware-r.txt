@@ -1784,6 +1784,7 @@ drawable ic_notifications_black_24dp
 drawable ic_schedule
 drawable ic_share
 drawable ic_tick
+drawable jarjar
 drawable lligadebat
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -1823,6 +1824,7 @@ drawable round_button
 drawable running
 drawable runnning_event
 drawable send_round_box
+drawable tennis
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light

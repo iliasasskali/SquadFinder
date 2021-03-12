@@ -144,6 +144,10 @@
         "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_group_add.xml"
     },
     {
+        "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_tennis.jpg.flat",
+        "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\drawable-xxhdpi\\tennis.jpg"
+    },
+    {
         "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
         "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
     },
@@ -194,6 +198,10 @@
     {
         "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_esdeveniments.xml.flat",
         "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\layout\\fragment_esdeveniments.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_jarjar.jpeg.flat",
+        "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\drawable-xxhdpi\\jarjar.jpeg"
     },
     {
         "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detall_grup.xml.flat",
