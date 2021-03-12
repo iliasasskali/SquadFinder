@@ -22,14 +22,6 @@ class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyc
             "Protesta per ...",
             "Mitja Marató de Barcelona")
 
-    /*private val eventDetails = arrayOf(
-            "Començarem a Vic i farem la ruta...",
-            "Qualsevol nivell, uneix-te i t'afegirem a un equip.",
-            "Conert a BCN... info...",
-            "Aula esport: Nutrició i rendiment...",
-            "Informació de la protesta...",
-            "Inscriute a http://edreamsmitjabarcelona.com/inscripcion/")*/
-
     private val eventDates = arrayOf(
         "25/03/2021, 17:00",
         "04/04/2021, 23:00",

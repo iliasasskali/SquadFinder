@@ -4,12 +4,12 @@
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\anim_to_botton_anim.xml.flat",
-        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\anim\\to_botton_anim.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pro.xml.flat",
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\fragment_pro.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\anim_to_botton_anim.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\anim\\to_botton_anim.xml"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
