@@ -27,7 +27,7 @@ class DetailedEventActivity : OnMapReadyCallback, AppCompatActivity() {
     @SuppressLint("ClickableViewAccessibility")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detalls_esdeveniment_participant)
+        setContentView(R.layout.activity_detalls_esdeveniment)
 
         // showing the back button in action bar
         getSupportActionBar()?.setDisplayHomeAsUpEnabled(true)

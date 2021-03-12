@@ -9,6 +9,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+import org.w3c.dom.Text
 import upf.edu.squadfinder.DetailedGroupActivity
 import upf.edu.squadfinder.LoginActivity
 import upf.edu.squadfinder.R
@@ -16,20 +17,20 @@ import upf.edu.squadfinder.R
 class GrupsRecyclerViewAdapter : RecyclerView.Adapter<GrupsRecyclerViewAdapter.ViewHolder>() {
 
     private val groupNames = arrayOf(
-        "Grup Running Ossona",
+        "Grup Running Osona",
         "CsGo Team \uD83D\uDCAA\uD83D\uDC8E",
         "Lliga de Debat UPF",
         "Federació Cat. Ciclisme",
-        "Club Tennis Gironna",
+        "Club Tennis Girona",
         "Club de Fans de Jar Jar")
 
-    /*private val groupDetails = arrayOf(
-            "Començarem a Vic i farem la ruta...",
-            "Qualsevol nivell, uneix-te i t'afegirem a un equip.",
-            "Conert a BCN... info...",
-            "Aula esport: Nutrició i rendiment...",
-            "Informació de la protesta...",
-            "Inscriute a http://edreamsmitjabarcelona.com/inscripcion/")*/
+    private val groupLangs = arrayOf(
+        "Català",
+        "English",
+        "Català, Español, English",
+        "Català, Español",
+        "Català, Español",
+        "Español, English")
 
     private val groupMembers = arrayOf(
         "13/1000",
@@ -62,6 +63,7 @@ class GrupsRecyclerViewAdapter : RecyclerView.Adapter<GrupsRecyclerViewAdapter.V
         //var groupDetail : TextView
         var groupSlots : TextView
         var groupUbication : TextView
+        var groupLang : TextView
 
         init {
             groupImage = itemView.findViewById(R.id.group_image)
@@ -69,6 +71,7 @@ class GrupsRecyclerViewAdapter : RecyclerView.Adapter<GrupsRecyclerViewAdapter.V
             //groupDetail = itemView.findViewById(R.id.group_detail)
             groupSlots = itemView.findViewById(R.id.group_members)
             groupUbication = itemView.findViewById(R.id.group_ubication)
+            groupLang = itemView.findViewById(R.id.group_lang)
         }
     }
 
@@ -83,6 +86,7 @@ class GrupsRecyclerViewAdapter : RecyclerView.Adapter<GrupsRecyclerViewAdapter.V
         holder.groupSlots.text = groupMembers[position]
         holder.groupUbication.text = groupUbications[position]
         holder.groupImage.setImageResource(groupImages[position])
+        holder.groupLang.text = groupLangs[position]
 
         // DETALL DEL GRUP, FET NOMÉS PEL 3R GRUP
         if (position == 2) {

@@ -1110,6 +1110,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color join
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1217,6 +1218,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color shareBlue
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -1229,6 +1231,7 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color warningRed
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -1820,6 +1823,12 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profile1
+drawable profile2
+drawable profile3
+drawable profile4
+drawable profile5
+drawable profile6
 drawable protest
 drawable receive_round_box
 drawable round_button
@@ -2046,6 +2055,7 @@ id graph
 id graph_wrap
 id group_divider
 id group_image
+id group_lang
 id group_members
 id group_name
 id group_ubication
@@ -2063,6 +2073,7 @@ id hybrid
 id icon
 id icon_group
 id icon_only
+id idiomes_detall_grup
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2084,7 +2095,6 @@ id integrant5_image
 id integrant5_nom
 id integrant6_image
 id integrant6_nom
-id integrants_detall_grup
 id introText
 id invisible
 id inward
@@ -2430,7 +2440,7 @@ layout activity_chat
 layout activity_create_event
 layout activity_create_group
 layout activity_detall_grup
-layout activity_detalls_esdeveniment_participant
+layout activity_detalls_esdeveniment
 layout activity_home
 layout activity_login
 layout activity_main
@@ -2612,6 +2622,7 @@ string google_maps_key
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string idiomes_detall_grup
 string intro_text_1
 string item_view_role_description
 string login_button
@@ -2694,6 +2705,7 @@ string title_pro
 string titol_detall_esdeveniment
 string titol_detall_grup
 string ubicacio_detall_esdeveniment
+string ubicacio_detall_grup
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

@@ -14,10 +14,10 @@ upf/edu/squadfinder/BuildConfig.java
  upf.edu.squadfinder.BuildConfig
 upf/edu/squadfinder/databinding/ActivityDetallGrupBinding.java
  upf.edu.squadfinder.databinding.ActivityDetallGrupBinding
+upf/edu/squadfinder/databinding/ActivityDetallsEsdevenimentBinding.java
+ upf.edu.squadfinder.databinding.ActivityDetallsEsdevenimentBinding
 upf/edu/squadfinder/databinding/RecyclerviewGrupsModelBinding.java
  upf.edu.squadfinder.databinding.RecyclerviewGrupsModelBinding
-upf/edu/squadfinder/databinding/ActivityDetallsEsdevenimentParticipantBinding.java
- upf.edu.squadfinder.databinding.ActivityDetallsEsdevenimentParticipantBinding
 upf/edu/squadfinder/databinding/FragmentGrupsBinding.java
  upf.edu.squadfinder.databinding.FragmentGrupsBinding
 upf/edu/squadfinder/databinding/ActivityRegisterBinding.java

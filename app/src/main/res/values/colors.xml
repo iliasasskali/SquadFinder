@@ -13,4 +13,8 @@
     <color name="colorPrimaryDark">#151515</color>
     <color name="colorAccent">#FF7043</color>
     <color name="colorAccentTwo">#FF5343</color>
+
+    <color name="join">#BCB13E</color>
+    <color name="shareBlue">#04BBFF</color>
+    <color name="warningRed">#D93434</color>
 </resources>
