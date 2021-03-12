@@ -15,8 +15,7 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.material.textfield.TextInputLayout
 import upf.edu.squadfinder.data.Event
-import upf.edu.squadfinder.ui.meusGrupsEsdeveniments.MeusGEFragment
-import upf.edu.squadfinder.ui.meusGrupsEsdeveniments.MeusGERecyclerViewAdapter
+import upf.edu.squadfinder.ui.meusGrupsEsdeveniments.MeusEsdevenimentsRecyclerViewAdapter
 
 
 class CreateEventActivity : AppCompatActivity(), OnMapReadyCallback {
@@ -59,8 +58,6 @@ class CreateEventActivity : AppCompatActivity(), OnMapReadyCallback {
             intentHome.putExtra("FRAGMENT_ID", 1);
             startActivity(intentHome)
         }
-
-
     }
 
     //create a class Event

@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\layout\\activity_chat.xml"
     },
     {
-        "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.xml.flat",
         "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pro.xml.flat",
@@ -48,28 +48,28 @@
         "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\anim\\rotate_open_anim.xml"
     },
     {
-        "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_join_group.xml.flat",
+        "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_join_group.xml"
     },
     {
         "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_event_delete.xml.flat",
         "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_event_delete.xml"
     },
     {
-        "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_join_group.xml.flat",
-        "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_join_group.xml"
+        "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
         "merged": "C:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_band.PNG.flat",

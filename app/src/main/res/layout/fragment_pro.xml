@@ -12,44 +12,44 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="48dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/titol_pro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="32sp"
             android:text="@string/pro_slogan"
             android:textAlignment="center"
-            android:textColor="@color/black"
             android:textSize="32sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="32sp"
-            android:layout_marginTop="16sp"/>
+            android:textStyle="bold" />
 
         <ListView
             android:id="@+id/pro_advantages"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:divider="@null"
             android:layout_marginHorizontal="80dp"
-            android:listSelector="@android:color/transparent">
-        </ListView>
+            android:divider="@null"
+            android:listSelector="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/start_pro_trial_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="8dp"
+            android:text="Prova SquadFinder Pro"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/start_pro_trial_button"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="64dp"
-        android:text="Prova SquadFinder Pro"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
