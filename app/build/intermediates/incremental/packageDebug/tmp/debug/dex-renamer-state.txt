@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #Fri Mar 12 16:09:52 CET 2021
 base.0=C\:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+=======
+#Fri Mar 12 13:47:35 CET 2021
+base.0=C\:\\Users\\Rupesh\\Desktop\\AppMobile\\SquadFinder\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+>>>>>>> 1a494c139f37194b1c05f7d5f37eef846ed4b710
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
