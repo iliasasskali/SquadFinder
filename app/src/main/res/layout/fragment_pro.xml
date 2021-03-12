@@ -7,17 +7,48 @@
     android:layout_height="match_parent"
     tools:context=".ui.pro.ProFragment">
 
-    <TextView
-        android:id="@+id/text_pro"
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="48dp">
+
+        <TextView
+            android:id="@+id/titol_pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pro_slogan"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32sp"
+            android:layout_marginTop="16sp"/>
+
+        <ListView
+            android:id="@+id/pro_advantages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:divider="@null"
+            android:layout_marginHorizontal="80dp"
+            android:listSelector="@android:color/transparent">
+        </ListView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start_pro_trial_button"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_marginBottom="64dp"
+        android:text="Prova SquadFinder Pro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

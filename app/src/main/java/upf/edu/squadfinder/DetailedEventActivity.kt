@@ -33,7 +33,6 @@ class DetailedEventActivity : OnMapReadyCallback, AppCompatActivity() {
         getSupportActionBar()?.setDisplayHomeAsUpEnabled(true)
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-
         val mapFragment = supportFragmentManager
                 .findFragmentById(R.id.mapView) as SupportMapFragment
         mapFragment.getMapAsync(this)
