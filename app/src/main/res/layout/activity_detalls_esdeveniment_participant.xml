@@ -65,6 +65,7 @@
             android:layout_margin="5dp"
             android:clickable="true"
             android:contentDescription="No assistiré"
+            android:backgroundTint="@color/red"
             android:focusable="true"
             app:srcCompat="@drawable/ic_event_delete" />
 

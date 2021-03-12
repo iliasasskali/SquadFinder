@@ -66,6 +66,7 @@
             android:layout_margin="5dp"
             android:clickable="true"
             android:contentDescription="Abandonar Grup"
+            android:backgroundTint="@color/red"
             android:focusable="true"
             app:srcCompat="@drawable/ic_exit" />
 

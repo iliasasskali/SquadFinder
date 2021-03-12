@@ -2,7 +2,7 @@
     <string name="app_name">SquadFinder</string>
     <string name="title_home_esdeveniments">Esdeveniments</string>
     <string name="title_grups">Grups</string>
-    <string name="title_meus_grups_esdev">meus G/E</string>
+    <string name="title_meus_grups_esdev">Els meus G/E</string>
     <string name="title_pro">PRO</string>
     <string name="crear">Crear</string>
     <string name="crear_grup">Crear nou grup</string>
@@ -12,8 +12,14 @@
     <string name="login_send_button">Enviar</string>
     <string name="intro_text_1">Selecciona una opció</string>
     <string name="login_button">Identificació</string>
-    <string name="register_button">Registre</string>
-    <string name="title_activity_register">RegisterActivity</string>
+    <string name="register_button">Registrar-se</string>
+    <string name="title_activity_register">Registre</string>
+    <string name="title_activity_login">Iniciar sessió</string>
+    <string name="title_activity_create_event">Crear esdeveniment</string>
+    <string name="title_activity_create_grup">Crear grup</string>
+    <string name="title_activity_detailed_event">Detalls de l\'esdeveniment</string>
+    <string name="title_activity_chat">Xat</string>
+    <string name="title_activity_detailed_grup">Detalls del grup</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="titol_detall_esdeveniment">Mitja Marató de Barcelona 2021</string>

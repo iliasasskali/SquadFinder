@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="8dp"
-        android:backgroundTint="@color/purple_500"
+        android:backgroundTint="@color/colorAccentTwo"
         android:clickable="true"
         android:contentDescription="@string/crear"
         android:focusable="true"
