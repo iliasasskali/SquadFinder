@@ -6,14 +6,13 @@ import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.Toast
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import upf.edu.squadfinder.ui.chat.ChatActivity
 
 class HomeActivity : AppCompatActivity() {
     // Animacions create button
@@ -39,6 +38,15 @@ class HomeActivity : AppCompatActivity() {
                 R.id.navigation_esdeveniments, R.id.navigation_grups, R.id.navigation_meus_GE))
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        //get the FRAGMENT_ID
+        val intent = intent
+        //val intentFragment = intent.getIntExtra("FRAGMENT_ID")
+        /*if (intentFragment != null) {
+            //transaction.replace(R.id.navigation_meus_GE, appBarConfiguration)
+            Toast.makeText(this, intentFragment, Toast.LENGTH_SHORT).show()
+        }*/
+
 
         val createGroupButton = findViewById<FloatingActionButton>(R.id.create_group_button)
         val createEventButton = findViewById<FloatingActionButton>(R.id.create_event_button)

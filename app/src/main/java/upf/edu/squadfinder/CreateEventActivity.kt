@@ -3,6 +3,7 @@ package upf.edu.squadfinder
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.EditText
 import android.widget.Switch
 import androidx.appcompat.app.AppCompatActivity
@@ -39,18 +40,27 @@ class CreateEventActivity : AppCompatActivity(), OnMapReadyCallback {
         val inputnumParticipants = findViewById<EditText>(R.id.numParticipants)
         val switchPrivatePublic = findViewById<Switch>(R.id.switchPrivatePublic)
         val inputDescription = findViewById<TextInputLayout>(R.id.description)
+        val buttonSave = findViewById<Button>(R.id.saveButton)
 
         var titleString: String = inputTitle.text.toString()
         var participantsString: String = inputnumParticipants.text.toString()
         var switchString: Boolean = switchPrivatePublic.isChecked()
-        var descriptionString: String = switchPrivatePublic.text.toString()
+        var descriptionString: String = inputDescription.toString()
 
-        //creating an Event to store the data
-        val event : Event = this.createEvent(titleString, participantsString, switchString, descriptionString)
+        buttonSave.setOnClickListener {
+            //creating an Event to store the data
+            val event : Event = createEvent(titleString, participantsString, switchString, descriptionString)
 
-        val intent = Intent(baseContext, MeusGERecyclerViewAdapter::class.java)
-        intent.putExtra("ADD_EVENT", event)
-        startActivity(intent)
+            //val intent = Intent(baseContext, MeusGERecyclerViewAdapter::class.java)
+            //intent.putExtra("ADD_EVENT", event)
+            //startActivity(intent)
+
+            val intentHome = Intent(this, HomeActivity::class.java).apply {}
+            intentHome.putExtra("FRAGMENT_ID", 1);
+            startActivity(intentHome)
+        }
+
+
     }
 
     //create a class Event

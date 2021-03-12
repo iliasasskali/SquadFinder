@@ -7,8 +7,8 @@
     tools:context=".CreateEventActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="278dp"
-        android:layout_height="585dp"
+        android:layout_width="287dp"
+        android:layout_height="541dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,7 +62,7 @@
             android:id="@+id/mapView"
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
-            android:layout_height="190dp"
+            android:layout_height="150dp"
             android:layout_marginTop="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
