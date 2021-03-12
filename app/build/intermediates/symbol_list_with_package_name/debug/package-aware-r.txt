@@ -1924,6 +1924,7 @@ id bounce
 id btn_send
 id buttonPanel
 id cache_measures
+id calendarView
 id cancel_action
 id cancel_button
 id card_view_esdeveniment
@@ -2130,6 +2131,8 @@ id membres_detall_grup
 id membres_grup
 id membres_titol_detall_grup
 id message
+id meus_esdeveniments
+id meus_grups
 id middle
 id mini
 id mobile_navigation
@@ -2209,6 +2212,8 @@ id ratio
 id rectangles
 id recyclerViewEsdeveniments
 id recyclerViewGrups
+id recyclerViewMeusEsdeveniments
+id recyclerViewMeusGrups
 id registerButton
 id registerButton2
 id reverseSawtooth
@@ -2305,7 +2310,6 @@ id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
-id text_meusGE
 id textinput_counter
 id textinput_error
 id textinput_helper_text

@@ -15,6 +15,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.material.textfield.TextInputLayout
 import upf.edu.squadfinder.data.Event
 import upf.edu.squadfinder.ui.meusGrupsEsdeveniments.MeusGEFragment
+import upf.edu.squadfinder.ui.meusGrupsEsdeveniments.MeusGERecyclerViewAdapter
 
 
 class CreateEventActivity : AppCompatActivity(), OnMapReadyCallback {
@@ -47,7 +48,7 @@ class CreateEventActivity : AppCompatActivity(), OnMapReadyCallback {
         //creating an Event to store the data
         val event : Event = this.createEvent(titleString, participantsString, switchString, descriptionString)
 
-        val intent = Intent(baseContext, MeusGEFragment::class.java)
+        val intent = Intent(baseContext, MeusGERecyclerViewAdapter::class.java)
         intent.putExtra("ADD_EVENT", event)
         startActivity(intent)
     }

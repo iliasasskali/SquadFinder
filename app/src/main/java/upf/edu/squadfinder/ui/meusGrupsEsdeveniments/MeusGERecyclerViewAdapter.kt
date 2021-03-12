@@ -1,4 +1,4 @@
-package upf.edu.squadfinder.ui.esdeveniments
+package upf.edu.squadfinder.ui.meusGrupsEsdeveniments
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -6,57 +6,33 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import upf.edu.squadfinder.CreateEventActivity
 import upf.edu.squadfinder.DetailedEventActivity
-import upf.edu.squadfinder.DetailedGroupActivity
 import upf.edu.squadfinder.R
+import java.security.AccessController.getContext
 
-class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyclerViewAdapter.ViewHolder>() {
+class MeusGERecyclerViewAdapter : RecyclerView.Adapter<MeusGERecyclerViewAdapter.ViewHolder>() {
 
     private val eventTitles = arrayOf(
-            "Ruta Cicloturista",
-            "Torneig CS GO",
-            "Concert solidari BCN",
-            "Aula Esport: Nutrició",
-            "Protesta per ...",
             "Mitja Marató de Barcelona")
 
     private val eventDates = arrayOf(
-        "25/03/2021, 17:00",
-        "04/04/2021, 23:00",
-        "04/04/2021, 20:00",
-        "15/04/2021, 11:00",
-        "25/04/2021, 09:00",
-        "17/10/2021, 10:00")
+            "17/10/2021, 10:00")
 
     private val eventParticipants = arrayOf(
-            "380/1000",
-            "6/40",
-            "120/8000",
-            "10/50",
-            "403/19",
+
             "650/8000")
 
     private val eventUbications = arrayOf(
-        "Vic",
-        "Online",
-        "Barcelona",
-        "Online",
-        "Girona",
-        "Barcelona")
+            "Barcelona")
 
 
     private val eventImages = arrayOf(
-        R.drawable.cycling,
-        R.drawable.gaming,
-        R.drawable.concert,
-        R.drawable.upf,
-        R.drawable.protest,
-        R.drawable.runnning_event
+            R.drawable.runnning_event
     )
 
-    inner class ViewHolder (itemView: View) : RecyclerView.ViewHolder(itemView) {
+    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var eventImage : ImageView
         var eventTitle : TextView
         //var eventDetail : TextView
@@ -75,6 +51,9 @@ class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyc
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+
+        //val createEvent = CreateEventActivity(getContext())
+
         val v = LayoutInflater.from(parent.context)
                 .inflate(R.layout.recyclerview_esdeveniments_model, parent, false)
         return ViewHolder(v)
@@ -102,4 +81,5 @@ class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyc
     override fun getItemCount(): Int {
         return eventTitles.size
     }
+
 }
