@@ -44,7 +44,10 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/contingut_detall_esdeveniment" />
+    <include
+        android:id="@+id/include"
+        layout="@layout/contingut_detall_esdeveniment"
+        app:layout_anchorGravity="top|center" />
 
     <LinearLayout
         android:id="@+id/esdevenimentParticipantButtons"
@@ -66,6 +69,7 @@
             android:clickable="true"
             android:contentDescription="No assistiré"
             android:backgroundTint="@color/warningRed"
+            android:tintMode="@android:color/white"
             android:focusable="true"
             app:srcCompat="@drawable/ic_event_delete" />
 
@@ -78,6 +82,7 @@
             android:contentDescription="Compartir"
             android:focusable="true"
             app:srcCompat="@drawable/ic_share"
+            android:tintMode="@android:color/white"
             android:backgroundTint="@color/shareBlue" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -89,6 +94,7 @@
             android:contentDescription="Chat"
             android:focusable="true"
             app:srcCompat="@drawable/ic_chat"
+            android:tintMode="@android:color/white"
             android:backgroundTint="@color/join" />
 
     </LinearLayout>
@@ -114,7 +120,8 @@
             android:contentDescription="Abandonar Grup"
             android:focusable="true"
             app:srcCompat="@drawable/ic_event_join"
-            android:backgroundTint="@color/join"/>
+            android:backgroundTint="@color/join"
+            android:tintMode="@android:color/white"/>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/compartirEsdevenimentButton2"
@@ -127,7 +134,8 @@
             app:srcCompat="@drawable/ic_share"
             app:layout_anchor="@id/app_bar"
             app:layout_anchorGravity="bottom|end"
-            android:backgroundTint="@color/shareBlue" />
+            android:backgroundTint="@color/shareBlue"
+            android:tintMode="@android:color/white"/>
 
     </LinearLayout>
 

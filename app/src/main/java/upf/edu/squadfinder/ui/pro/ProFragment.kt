@@ -14,6 +14,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.*
+import kotlinx.android.synthetic.main.activity_detall_grup.view.*
+import kotlinx.android.synthetic.main.activity_home.view.*
 import upf.edu.squadfinder.R
 import upf.edu.squadfinder.databinding.FragmentGrupsBinding
 import upf.edu.squadfinder.databinding.FragmentProBinding

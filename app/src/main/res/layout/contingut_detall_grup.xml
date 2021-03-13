@@ -85,26 +85,41 @@
 
             </RelativeLayout>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/integrant1_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/profile1" />
 
-                <ImageView
-                    android:id="@+id/integrant1_image"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/profile1" />
+                    <TextView
+                        android:id="@+id/integrant1_nom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lucy Charles"
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
 
                 <TextView
-                    android:id="@+id/integrant1_nom"
+                    android:id="@+id/is_admin"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Quirze Arbó"
-                    android:layout_marginStart="10dp"
-                    android:layout_gravity="center"/>
-            </LinearLayout>
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="Admin"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"/>
+
+            </RelativeLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

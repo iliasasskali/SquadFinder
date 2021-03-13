@@ -35,7 +35,7 @@ class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyc
             "6/40",
             "120/8000",
             "10/50",
-            "403/19",
+            "403/2000",
             "650/8000")
 
     private val eventUbications = arrayOf(

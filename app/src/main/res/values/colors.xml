@@ -17,4 +17,6 @@
     <color name="join">#BCB13E</color>
     <color name="shareBlue">#04BBFF</color>
     <color name="warningRed">#D93434</color>
+    <color name="yellow">#F9C70C</color>
+
 </resources>

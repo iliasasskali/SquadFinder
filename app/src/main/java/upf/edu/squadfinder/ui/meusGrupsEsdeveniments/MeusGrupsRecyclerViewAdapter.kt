@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import upf.edu.squadfinder.DetailedGroupActivity
+import upf.edu.squadfinder.DetailedGroupCreatorActivity
 import upf.edu.squadfinder.R
 import java.security.AccessController.getContext
 
@@ -51,12 +52,12 @@ class MeusGrupsRecyclerViewAdapter : RecyclerView.Adapter<MeusGrupsRecyclerViewA
                 v.context.startActivity(intentDetallGrup)
             }
         }
-        /*if (groupNames[position].equals("Grup AiSM (Admin)")) {
+        if (groupNames[position].equals("Grup AiSM (Admin)")) {
             holder.itemView.setOnClickListener { v: View ->
                 val intentDetallGrupCreador = Intent(v.context, DetailedGroupCreatorActivity::class.java).apply {}
                 v.context.startActivity(intentDetallGrupCreador)
             }
-        }*/
+        }
 
     }
 

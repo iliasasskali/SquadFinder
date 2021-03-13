@@ -68,7 +68,8 @@
             android:contentDescription="Abandonar Grup"
             android:backgroundTint="@color/warningRed"
             android:focusable="true"
-            app:srcCompat="@drawable/ic_exit" />
+            app:srcCompat="@drawable/ic_exit"
+            android:tintMode="@android:color/white" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/compartirGrupButton"
@@ -79,6 +80,7 @@
             android:contentDescription="Compartir"
             android:focusable="true"
             app:srcCompat="@drawable/ic_share"
+            android:tintMode="@android:color/white"
             android:backgroundTint="@color/shareBlue"/>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -90,6 +92,7 @@
             android:contentDescription="Chat"
             android:focusable="true"
             app:srcCompat="@drawable/ic_chat"
+            android:tintMode="@android:color/white"
             android:backgroundTint="@color/join"/>
 
     </LinearLayout>
@@ -115,6 +118,7 @@
             android:contentDescription="Abandonar Grup"
             android:focusable="true"
             app:srcCompat="@drawable/ic_join_group"
+            android:tintMode="@android:color/white"
             android:backgroundTint="@color/join" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -126,6 +130,7 @@
             android:contentDescription="Compartir"
             android:focusable="true"
             app:srcCompat="@drawable/ic_share"
+            android:tintMode="@android:color/white"
             android:backgroundTint="@color/shareBlue" />
 
     </LinearLayout>
