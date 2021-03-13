@@ -1110,6 +1110,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color join
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1217,6 +1218,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color shareBlue
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -1229,7 +1231,9 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color warningRed
 color white
+color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1766,6 +1770,8 @@ drawable ic_chat
 drawable ic_clock_black_24dp
 drawable ic_cup
 drawable ic_dashboard_black_24dp
+drawable ic_destacar
+drawable ic_edit
 drawable ic_event
 drawable ic_event_delete
 drawable ic_event_join
@@ -1783,6 +1789,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
+drawable ic_person_remove
 drawable ic_schedule
 drawable ic_share
 drawable ic_tick
@@ -1820,6 +1827,12 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profile1
+drawable profile2
+drawable profile3
+drawable profile4
+drawable profile5
+drawable profile6
 drawable protest
 drawable receive_round_box
 drawable round_button
@@ -1848,6 +1861,7 @@ id TOP_END
 id TOP_START
 id abandonarEsdevenimentButton
 id abandonarGrupButton
+id abandonar_admin_button
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1890,6 +1904,7 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_chat
 id action_container
 id action_context_bar
 id action_divider
@@ -1928,7 +1943,8 @@ id bounce
 id btn_send
 id buttonPanel
 id cache_measures
-id calendarView
+id calendarEsdevenimentsView
+id calendarViewPager
 id cancel_action
 id cancel_button
 id card_view_esdeveniment
@@ -1984,12 +2000,14 @@ id default_activity_button
 id deltaRelative
 id dependency_ordering
 id descripcio_detall_esdeveniment
+id descripcio_detall_grup_creador
 id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id destacarGrupButton
 id dialog_button
 id dimensions
 id direct
@@ -2008,6 +2026,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id editarGrupButton
 id elastic
 id end
 id endToStart
@@ -2046,6 +2065,7 @@ id graph
 id graph_wrap
 id group_divider
 id group_image
+id group_lang
 id group_members
 id group_name
 id group_ubication
@@ -2063,10 +2083,12 @@ id hybrid
 id icon
 id icon_group
 id icon_only
+id idiomes_detall_grup
 id ifRoom
 id ignore
 id ignoreRequest
 id image
+id include
 id info
 id inputEmail
 id inputGroup
@@ -2084,10 +2106,10 @@ id integrant5_image
 id integrant5_nom
 id integrant6_image
 id integrant6_nom
-id integrants_detall_grup
 id introText
 id invisible
 id inward
+id is_admin
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -2220,6 +2242,8 @@ id recyclerViewMeusEsdeveniments
 id recyclerViewMeusGrups
 id registerButton
 id registerButton2
+id remove_participant2_button
+id remove_participant_button
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2430,7 +2454,8 @@ layout activity_chat
 layout activity_create_event
 layout activity_create_group
 layout activity_detall_grup
-layout activity_detalls_esdeveniment_participant
+layout activity_detall_grup_creador
+layout activity_detalls_esdeveniment
 layout activity_home
 layout activity_login
 layout activity_main
@@ -2438,6 +2463,7 @@ layout activity_maps
 layout activity_register
 layout contingut_detall_esdeveniment
 layout contingut_detall_grup
+layout contingut_detall_grup_creador
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2539,6 +2565,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu bottom_nav_menu
+menu toolbar
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation mobile_navigation
@@ -2603,6 +2630,7 @@ string crear_grup
 string data_detall_esdeveniment
 string descripcio_detall_esdeveniment
 string descripcio_detall_grup
+string descripcio_detall_grup_creador
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2612,6 +2640,8 @@ string google_maps_key
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string idiomes_detall_grup
+string idiomes_detall_grup_creador
 string intro_text_1
 string item_view_role_description
 string login_button
@@ -2690,10 +2720,14 @@ string title_activity_register
 string title_grups
 string title_home_esdeveniments
 string title_meus_grups_esdev
+string title_meus_grups_esdev_toolbar
 string title_pro
+string title_pro_toolbar
 string titol_detall_esdeveniment
 string titol_detall_grup
+string titol_detall_grup_creador
 string ubicacio_detall_esdeveniment
+string ubicacio_detall_grup
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

@@ -2,8 +2,10 @@
     <string name="app_name">SquadFinder</string>
     <string name="title_home_esdeveniments">Esdeveniments</string>
     <string name="title_grups">Grups</string>
-    <string name="title_meus_grups_esdev">Els meus G/E</string>
+    <string name="title_meus_grups_esdev">Meus G/E</string>
+    <string name="title_meus_grups_esdev_toolbar">Meus Grups i Esdeveniments</string>
     <string name="title_pro">PRO</string>
+    <string name="title_pro_toolbar">SquadFinder PRO</string>
     <string name="crear">Crear</string>
     <string name="crear_grup">Crear nou grup</string>
     <string name="crear_esdeveniment">Crear nou esdeveniment</string>
@@ -23,10 +25,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="titol_detall_esdeveniment">Mitja Marató de Barcelona 2021</string>
-    <!-- TODO: ' No els detecta be-->
     <string name="descripcio_detall_esdeveniment">L\'eDreams Mitja Marató de Barcelona tindrá lloc el 17 d\'octubre de 2021
-            amb l\'objectiu de garantir la máxima seguretat dels corredors, públic i organitzadors.\n\nFira del corredor: Palau de Congressos de Barcelona (Av. Maria Cristina).\n\n
-        Horari: dijous 14 d\'octubre de 17h a 21h, divendres 15 d\'octubre de 10h a 21h
+            amb l\'objectiu de garantir la máxima seguretat dels corredors, públic i organitzadors.\n\nFira del corredor:
+        Palau de Congressos de Barcelona (Av. Maria Cristina).\n\nHorari: dijous 14 d\'octubre de 17h a 21h, divendres 15 d\'octubre de 10h a 21h
             i dissabte 16 d\'octubre de 9h a 20h.\n\nTots els inscrits hauran de recollir el seu dorsal, o dorsal-xip, la bossa del corredor
             i la samarreta a la Fira del Corredor. És obligatòria la presentació;
             del DNI o passaport juntament amb el mail on s\'indica el número de dorsal
@@ -36,10 +37,20 @@
             i l\'e-mail que indica el teu número de dorsal.\n\nInscriute a https://edreamsmitjabarcelona.com/inscripcion/
     </string>
     <string name="titol_detall_grup">Grup lliga de debat UPF</string>
-    <string name="descripcio_detall_grup">"Grup lliga de debat UPF, obert a tothom. Actualment els debats es fan online degut a la pandèmia, en un futur es faran al campus de la Ciutadella de la Universitat Pompeu Fabra."</string>
+    <string name="descripcio_detall_grup">Si t\'agrada discutir amb els amics sobre temes d\'actualitat, argumentar, parlar en públic, practicar
+        i millorar les teves aptituds d\'oratòria, buscar els punts forts i febles d\'un discurs… Aquesta és la teva activitat!\n\nLa Lliga de Debat UPF pretén fomentar les tècniques de debat i oratòria. És una activitat dirigida a tots els estudiants de la comunitat universitària.\n\nA més, la lliga Societats de Debat, organitzada anualment per la Facultat de Ciències Econòmiques i Empresarials,
+        s\'uneix a la lliga interna de la UPF, proposant temes de debat generals en economia i premis especials.
+    </string>
     <string name="ubicacio_detall_esdeveniment"><p><strong>Ubicació: </strong>Passeig de Pujades, Barcelona</p></string>
     <string name="participants_detall_esdeveniment"><p><strong>Participants: </strong>650/8000</p></string>
     <string name="data_detall_esdeveniment"><p><strong>Data:</strong> 17/10/2021 8:30</p></string>
     <string name="title_activity_maps">Map</string>
     <string name="pro_slogan">Uneix-te a PRO i Treu el Millor de SquadFinder</string>
+    <string name="idiomes_detall_grup">Català, Español, English</string>
+    <string name="ubicacio_detall_grup">Online</string>
+    <string name="titol_detall_grup_creador">Grup AiSM</string>
+    <string name="idiomes_detall_grup_creador">Català, Español</string>
+    <string name="descripcio_detall_grup_creador">
+        Grup AiSM\nCreació app SquadFinder
+    </string>
 </resources>

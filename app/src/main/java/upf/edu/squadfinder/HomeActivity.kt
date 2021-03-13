@@ -2,6 +2,8 @@ package upf.edu.squadfinder
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
@@ -27,6 +29,9 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+
+        // TODO: MIRAR SI FUNCIONA
+        supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
@@ -71,9 +76,9 @@ class HomeActivity : AppCompatActivity() {
     }
 
     private fun onCreateButtonClicked(createGroupButton: FloatingActionButton, createEventButton: FloatingActionButton, createButton: FloatingActionButton) {
-        setVisibility(clicked, createGroupButton, createEventButton)
-        setAnimation(clicked, createGroupButton, createEventButton, createButton)
-        clicked = !clicked
+        setVisibility(this.clicked, createGroupButton, createEventButton)
+        setAnimation(this.clicked, createGroupButton, createEventButton, createButton)
+        this.clicked = !this.clicked
     }
 
     private fun setAnimation(clicked: Boolean, createGroupButton: FloatingActionButton, createEventButton: FloatingActionButton, createButton: FloatingActionButton) {
@@ -92,10 +97,14 @@ class HomeActivity : AppCompatActivity() {
         if(!clicked) {
             createGroupButton.visibility = View.VISIBLE
             createEventButton.visibility = View.VISIBLE
+            createGroupButton.setClickable(true)
+            createEventButton.setClickable(true)
         }else{
-            createGroupButton.visibility = View.INVISIBLE
-            createEventButton.visibility = View.INVISIBLE
-        }    
+            createGroupButton.visibility = View.GONE
+            createEventButton.visibility = View.GONE
+            createGroupButton.setClickable(false)
+            createEventButton.setClickable(false)
+        }
     }
 
     private fun setClickable(clicked: Boolean, createGroupButton: FloatingActionButton, createEventButton: FloatingActionButton) {
@@ -105,6 +114,31 @@ class HomeActivity : AppCompatActivity() {
         } else {
             createEventButton.isClickable = false
             createGroupButton.isClickable = false
+        }
+    }
+
+    //this function shows the chat button on the toolbar
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.toolbar, menu)
+        return true
+    }
+
+    //this function checks if the toolbar icons are clicked
+    // where i got the imfo from --> https://developer.android.com/training/appbar/actions#kotlin
+    override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
+        R.id.action_chat -> {
+            // User chose the "Chat" item, show the app settings UI...
+            // Elies -->  En aquest lloc es on tens que posar les teves coses crec
+            //Això es quan detecta que s'ha premut el boto
+            // Si vols canviar la icona de xat, està a toolbar.xml
+            Toast.makeText(this, "GOGO", Toast.LENGTH_SHORT).show()
+            true
+        }
+
+        else -> {
+            // If we got here, the user's action was not recognized.
+            // Invoke the superclass to handle it.
+            super.onOptionsItemSelected(item)
         }
     }
 }

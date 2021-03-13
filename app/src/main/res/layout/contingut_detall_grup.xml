@@ -37,14 +37,14 @@
                 android:id="@+id/membres_titol_detall_grup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Online" />
+                android:text="@string/ubicacio_detall_grup" />
 
             <TextView
-                android:id="@+id/integrants_detall_grup"
+                android:id="@+id/idiomes_detall_grup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:text="6/10" />
+                android:text="@string/idiomes_detall_grup" />
         </RelativeLayout>
 
         <TextView
@@ -73,7 +73,7 @@
                     android:id="@+id/titol_membres_detall_grup"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Membres grup:"
+                    android:text="Membres Grup:"
                     android:textStyle="bold" />
 
                 <TextView
@@ -85,26 +85,41 @@
 
             </RelativeLayout>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/integrant1_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/profile1" />
 
-                <ImageView
-                    android:id="@+id/integrant1_image"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    <TextView
+                        android:id="@+id/integrant1_nom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lucy Charles"
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
 
                 <TextView
-                    android:id="@+id/integrant1_nom"
+                    android:id="@+id/is_admin"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Quirze Arbó"
-                    android:layout_marginStart="10dp"
-                    android:layout_gravity="center"/>
-            </LinearLayout>
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="Admin"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"/>
+
+            </RelativeLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -115,7 +130,7 @@
                     android:id="@+id/integrant2_image"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:src="@drawable/profile2" />
 
                 <TextView
                     android:id="@+id/integrant2_nom"
@@ -135,7 +150,7 @@
                     android:id="@+id/integrant3_image"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:src="@drawable/profile3" />
 
                 <TextView
                     android:id="@+id/integrant3_nom"
@@ -155,7 +170,7 @@
                     android:id="@+id/integrant4_image"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:src="@drawable/profile4" />
 
                 <TextView
                     android:id="@+id/integrant4_nom"
@@ -175,13 +190,13 @@
                     android:id="@+id/integrant5_image"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:src="@drawable/profile5" />
 
                 <TextView
                     android:id="@+id/integrant5_nom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Adalbert Pérez"
+                    android:text="Judit Pérez"
                     android:layout_marginStart="10dp"
                     android:layout_gravity="center"/>
             </LinearLayout>
@@ -195,7 +210,7 @@
                     android:id="@+id/integrant6_image"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:src="@drawable/profile6" />
 
                 <TextView
                     android:id="@+id/integrant6_nom"

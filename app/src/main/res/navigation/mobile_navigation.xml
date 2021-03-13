@@ -20,12 +20,12 @@
     <fragment
         android:id="@+id/navigation_meus_GE"
         android:name="upf.edu.squadfinder.ui.meusGrupsEsdeveniments.MeusGEFragment"
-        android:label="@string/title_meus_grups_esdev"
+        android:label="@string/title_meus_grups_esdev_toolbar"
         tools:layout="@layout/fragment_meus_grups_esdeveniments" />
 
     <fragment
         android:id="@+id/navigation_pro"
         android:name="upf.edu.squadfinder.ui.pro.ProFragment"
-        android:label="@string/title_pro"
+        android:label="@string/title_pro_toolbar"
         tools:layout="@layout/fragment_pro" />
 </navigation>

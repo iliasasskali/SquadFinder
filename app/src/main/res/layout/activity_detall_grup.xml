@@ -66,9 +66,10 @@
             android:layout_margin="5dp"
             android:clickable="true"
             android:contentDescription="Abandonar Grup"
-            android:backgroundTint="@color/red"
+            android:backgroundTint="@color/warningRed"
             android:focusable="true"
-            app:srcCompat="@drawable/ic_exit" />
+            app:srcCompat="@drawable/ic_exit"
+            android:tintMode="@android:color/white" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/compartirGrupButton"
@@ -78,7 +79,9 @@
             android:clickable="true"
             android:contentDescription="Compartir"
             android:focusable="true"
-            app:srcCompat="@drawable/ic_share" />
+            app:srcCompat="@drawable/ic_share"
+            android:tintMode="@android:color/white"
+            android:backgroundTint="@color/shareBlue"/>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/chatGrupButton"
@@ -88,7 +91,9 @@
             android:clickable="true"
             android:contentDescription="Chat"
             android:focusable="true"
-            app:srcCompat="@drawable/ic_chat" />
+            app:srcCompat="@drawable/ic_chat"
+            android:tintMode="@android:color/white"
+            android:backgroundTint="@color/join"/>
 
     </LinearLayout>
 
@@ -112,7 +117,9 @@
             android:clickable="true"
             android:contentDescription="Abandonar Grup"
             android:focusable="true"
-            app:srcCompat="@drawable/ic_join_group" />
+            app:srcCompat="@drawable/ic_join_group"
+            android:tintMode="@android:color/white"
+            android:backgroundTint="@color/join" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/compartirGrupButton2"
@@ -122,7 +129,9 @@
             android:clickable="true"
             android:contentDescription="Compartir"
             android:focusable="true"
-            app:srcCompat="@drawable/ic_share" />
+            app:srcCompat="@drawable/ic_share"
+            android:tintMode="@android:color/white"
+            android:backgroundTint="@color/shareBlue" />
 
     </LinearLayout>
 
