@@ -13,10 +13,10 @@ import java.security.AccessController.getContext
 
 class MeusGrupsRecyclerViewAdapter : RecyclerView.Adapter<MeusGrupsRecyclerViewAdapter.ViewHolder>() {
 
-    private val groupNames = arrayOf("Lliga de Debat UPF")
-    private val groupMembers = arrayOf("4/5")
-    private val groupUbications = arrayOf("Barcelona")
-    private val groupImages = arrayOf(R.drawable.lligadebat)
+    private val groupNames = arrayOf("Grup AiSM (Admin)", "Lliga de Debat UPF")
+    private val groupMembers = arrayOf("3/3", "4/5")
+    private val groupUbications = arrayOf("Online", "Barcelona")
+    private val groupImages = arrayOf(R.drawable.upf, R.drawable.lligadebat)
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var groupImage: ImageView
@@ -51,6 +51,12 @@ class MeusGrupsRecyclerViewAdapter : RecyclerView.Adapter<MeusGrupsRecyclerViewA
                 v.context.startActivity(intentDetallGrup)
             }
         }
+        /*if (groupNames[position].equals("Grup AiSM (Admin)")) {
+            holder.itemView.setOnClickListener { v: View ->
+                val intentDetallGrupCreador = Intent(v.context, DetailedGroupCreatorActivity::class.java).apply {}
+                v.context.startActivity(intentDetallGrupCreador)
+            }
+        }*/
 
     }
 

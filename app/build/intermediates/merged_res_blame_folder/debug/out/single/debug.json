@@ -40,12 +40,12 @@
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_jarjar.jpeg.flat",
-        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable-xxhdpi\\jarjar.jpeg"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_profile4.png.flat",
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable-xxhdpi\\profile4.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_jarjar.jpeg.flat",
+        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable-xxhdpi\\jarjar.jpeg"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -136,12 +136,12 @@
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\layout\\recyclerview_model.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_group_add.xml.flat",
-        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_group_add.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_profile1.png.flat",
         "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable-xxhdpi\\profile1.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_group_add.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\src\\main\\res\\drawable\\ic_group_add.xml"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\SquadFinder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_event_delete.xml.flat",

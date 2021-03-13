@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import sun.bob.mcalendarview.MCalendarView
 import upf.edu.squadfinder.databinding.FragmentMeusGrupsEsdevenimentsBinding
 import upf.edu.squadfinder.ui.esdeveniments.EsdevenimentsRecyclerViewAdapter
 import upf.edu.squadfinder.ui.grups.GrupsRecyclerViewAdapter
@@ -18,6 +19,7 @@ class MeusGEFragment : Fragment() {
 
     private var _binding: FragmentMeusGrupsEsdevenimentsBinding? = null
     private val binding get() = _binding!!
+
 
     override fun onCreateView(
             inflater: LayoutInflater,
@@ -38,7 +40,6 @@ class MeusGEFragment : Fragment() {
             layoutManager = LinearLayoutManager(activity)
             binding.recyclerViewMeusGrups.adapter = MeusGrupsRecyclerViewAdapter()
         }
-
     }
 
     override fun onDestroyView() {

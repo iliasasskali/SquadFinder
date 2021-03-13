@@ -1937,7 +1937,8 @@ id bounce
 id btn_send
 id buttonPanel
 id cache_measures
-id calendarView
+id calendarEsdevenimentsView
+id calendarViewPager
 id cancel_action
 id cancel_button
 id card_view_esdeveniment
