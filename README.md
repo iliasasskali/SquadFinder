@@ -30,11 +30,9 @@ En el llistat de grups, prement sobre el grup "Lliga de debat UPF" entrem al det
 En els meus Grups i Esdeveniments ("Meus G/E") tenim:
  * Calendari a la part superior.
  * Els meus Grups:
- * Hem afegit el grup Lliga de debat suposant que s'hi pertany.
-		- Un segon grup (Admin) creat per l'usuari que utilitza l'app.
-			- Entrant al grup veiem que és diferent a la vista normal de grup afegint botons.
-			  Tenim un botó per editar el grup, destacar-lo, compartir i accedir al xat (Accedir al xat és l'únic funcional)
-			  En el llistat d'usuaris es té l'opció d'eliminar usuaris o sortir del grup passant a ser admin un altre membre.
+    - Hem afegit el grup Lliga de debat suposant que s'hi pertany.
+    - Un segon grup (Admin) creat per l'usuari que utilitza l'app.
+       - Entrant al grup veiem que és diferent a la vista normal de grup afegint botons. Tenim un botó per editar el grup, destacar-lo, compartir i accedir al xat (Accedir al xat és l'únic funcional). En el llistat d'usuaris es té l'opció d'eliminar usuaris o sortir del grup passant a ser admin un altre membre.
 
 En la pantalla PRO només tenim una explicació del que és, i un botó amb el que començar el període de prova.
 
