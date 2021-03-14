@@ -15,6 +15,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import upf.edu.squadfinder.ui.chat.ChatActivity
 
 class HomeActivity : AppCompatActivity() {
     // Animacions create button
@@ -62,13 +63,13 @@ class HomeActivity : AppCompatActivity() {
             onCreateButtonClicked(createGroupButton, createEventButton, createButton)
         }
         createGroupButton.setOnClickListener {
-            // TODO: Anar a la pantalla de creacio de grups
+            // Anar a la pantalla de creacio de grups
             //Toast.makeText(this, "CREACIÓ GRUP", Toast.LENGTH_SHORT).show()
             val intentCreateGroup = Intent(this, CreateGroupActivity::class.java).apply {}
             startActivity(intentCreateGroup)
         }
         createEventButton.setOnClickListener {
-            // TODO: Anar a la pantalla de creacio d'esdeveniments
+            // Anar a la pantalla de creacio d'esdeveniments
             //Toast.makeText(this, "CREACIÓ ESDEVENIMENT", Toast.LENGTH_SHORT).show()
             val intentCreateEvent = Intent(this, CreateEventActivity::class.java).apply {}
             startActivity(intentCreateEvent)
@@ -127,11 +128,8 @@ class HomeActivity : AppCompatActivity() {
     // where i got the imfo from --> https://developer.android.com/training/appbar/actions#kotlin
     override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
         R.id.action_chat -> {
-            // User chose the "Chat" item, show the app settings UI...
-            // Elies -->  En aquest lloc es on tens que posar les teves coses crec
-            //Això es quan detecta que s'ha premut el boto
-            // Si vols canviar la icona de xat, està a toolbar.xml
-            Toast.makeText(this, "GOGO", Toast.LENGTH_SHORT).show()
+            val intentChats = Intent(this, ChatsActivity::class.java).apply {}
+            startActivity(intentChats)
             true
         }
 

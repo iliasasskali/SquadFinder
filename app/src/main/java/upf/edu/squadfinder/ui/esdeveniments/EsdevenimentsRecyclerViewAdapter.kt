@@ -6,10 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import upf.edu.squadfinder.DetailedEventActivity
-import upf.edu.squadfinder.DetailedGroupActivity
 import upf.edu.squadfinder.R
 
 class EsdevenimentsRecyclerViewAdapter : RecyclerView.Adapter<EsdevenimentsRecyclerViewAdapter.ViewHolder>() {

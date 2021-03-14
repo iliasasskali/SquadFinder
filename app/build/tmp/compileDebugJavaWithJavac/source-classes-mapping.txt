@@ -1,23 +1,37 @@
 upf/edu/squadfinder/databinding/ActivityChatBinding.java
  upf.edu.squadfinder.databinding.ActivityChatBinding
-upf/edu/squadfinder/databinding/ActivityCreateEventBinding.java
- upf.edu.squadfinder.databinding.ActivityCreateEventBinding
 upf/edu/squadfinder/databinding/ContingutDetallGrupCreadorBinding.java
  upf.edu.squadfinder.databinding.ContingutDetallGrupCreadorBinding
+upf/edu/squadfinder/databinding/MessageItemBinding.java
+ upf.edu.squadfinder.databinding.MessageItemBinding
+upf/edu/squadfinder/databinding/ActivityDetallGrupBinding.java
+ upf.edu.squadfinder.databinding.ActivityDetallGrupBinding
+upf/edu/squadfinder/databinding/RecyclerviewChatsModelBinding.java
+ upf.edu.squadfinder.databinding.RecyclerviewChatsModelBinding
+upf/edu/squadfinder/databinding/ActivityDetallsEsdevenimentBinding.java
+ upf.edu.squadfinder.databinding.ActivityDetallsEsdevenimentBinding
+upf/edu/squadfinder/databinding/ActivityMapsBinding.java
+ upf.edu.squadfinder.databinding.ActivityMapsBinding
+upf/edu/squadfinder/databinding/FragmentMeusGrupsEsdevenimentsBinding.java
+ upf.edu.squadfinder.databinding.FragmentMeusGrupsEsdevenimentsBinding
+upf/edu/squadfinder/databinding/ActivityMainBinding.java
+ upf.edu.squadfinder.databinding.ActivityMainBinding
+upf/edu/squadfinder/databinding/FragmentProBinding.java
+ upf.edu.squadfinder.databinding.FragmentProBinding
+upf/edu/squadfinder/databinding/ContingutDetallGrupBinding.java
+ upf.edu.squadfinder.databinding.ContingutDetallGrupBinding
+upf/edu/squadfinder/databinding/ActivityChatsBinding.java
+ upf.edu.squadfinder.databinding.ActivityChatsBinding
+upf/edu/squadfinder/databinding/ActivityCreateEventBinding.java
+ upf.edu.squadfinder.databinding.ActivityCreateEventBinding
 upf/edu/squadfinder/databinding/FragmentEsdevenimentsBinding.java
  upf.edu.squadfinder.databinding.FragmentEsdevenimentsBinding
 upf/edu/squadfinder/databinding/ActivityCreateGroupBinding.java
  upf.edu.squadfinder.databinding.ActivityCreateGroupBinding
 upf/edu/squadfinder/databinding/RecyclerviewEsdevenimentsModelBinding.java
  upf.edu.squadfinder.databinding.RecyclerviewEsdevenimentsModelBinding
-upf/edu/squadfinder/databinding/MessageItemBinding.java
- upf.edu.squadfinder.databinding.MessageItemBinding
 upf/edu/squadfinder/BuildConfig.java
  upf.edu.squadfinder.BuildConfig
-upf/edu/squadfinder/databinding/ActivityDetallGrupBinding.java
- upf.edu.squadfinder.databinding.ActivityDetallGrupBinding
-upf/edu/squadfinder/databinding/ActivityDetallsEsdevenimentBinding.java
- upf.edu.squadfinder.databinding.ActivityDetallsEsdevenimentBinding
 upf/edu/squadfinder/databinding/RecyclerviewGrupsModelBinding.java
  upf.edu.squadfinder.databinding.RecyclerviewGrupsModelBinding
 upf/edu/squadfinder/databinding/FragmentGrupsBinding.java
@@ -26,20 +40,10 @@ upf/edu/squadfinder/databinding/ActivityRegisterBinding.java
  upf.edu.squadfinder.databinding.ActivityRegisterBinding
 upf/edu/squadfinder/databinding/RecyclerviewModelBinding.java
  upf.edu.squadfinder.databinding.RecyclerviewModelBinding
-upf/edu/squadfinder/databinding/ActivityMapsBinding.java
- upf.edu.squadfinder.databinding.ActivityMapsBinding
-upf/edu/squadfinder/databinding/FragmentMeusGrupsEsdevenimentsBinding.java
- upf.edu.squadfinder.databinding.FragmentMeusGrupsEsdevenimentsBinding
 upf/edu/squadfinder/databinding/ContingutDetallEsdevenimentBinding.java
  upf.edu.squadfinder.databinding.ContingutDetallEsdevenimentBinding
-upf/edu/squadfinder/databinding/ActivityMainBinding.java
- upf.edu.squadfinder.databinding.ActivityMainBinding
-upf/edu/squadfinder/databinding/FragmentProBinding.java
- upf.edu.squadfinder.databinding.FragmentProBinding
 upf/edu/squadfinder/databinding/LlistaProBinding.java
  upf.edu.squadfinder.databinding.LlistaProBinding
-upf/edu/squadfinder/databinding/ContingutDetallGrupBinding.java
- upf.edu.squadfinder.databinding.ContingutDetallGrupBinding
 upf/edu/squadfinder/databinding/ActivityLoginBinding.java
  upf.edu.squadfinder.databinding.ActivityLoginBinding
 upf/edu/squadfinder/databinding/ActivityDetallGrupCreadorBinding.java

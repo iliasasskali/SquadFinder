@@ -1767,6 +1767,7 @@ drawable googleg_standard_color_18
 drawable ic_add
 drawable ic_add_event
 drawable ic_chat
+drawable ic_circle
 drawable ic_clock_black_24dp
 drawable ic_cup
 drawable ic_dashboard_black_24dp
@@ -1947,6 +1948,7 @@ id calendarEsdevenimentsView
 id calendarViewPager
 id cancel_action
 id cancel_button
+id card_view_chat
 id card_view_esdeveniment
 id card_view_grup
 id center
@@ -1956,6 +1958,11 @@ id chain
 id chains
 id chatEsdevenimentButton
 id chatGrupButton
+id chat_image
+id chat_msg
+id chat_status
+id chat_time
+id chat_title
 id checkbox
 id checked
 id chip
@@ -2236,6 +2243,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerViewChats
 id recyclerViewEsdeveniments
 id recyclerViewGrups
 id recyclerViewMeusEsdeveniments
@@ -2451,6 +2459,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_chat
+layout activity_chats
 layout activity_create_event
 layout activity_create_group
 layout activity_detall_grup
@@ -2543,6 +2552,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout recyclerview_chats_model
 layout recyclerview_esdeveniments_model
 layout recyclerview_grups_model
 layout recyclerview_model

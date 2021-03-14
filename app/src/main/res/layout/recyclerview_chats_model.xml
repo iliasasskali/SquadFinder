@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_chat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    android:layout_margin="15dp"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/chat_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/upf"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/chat_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Titol esdeveniment"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/chat_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Person: Hola, com estas?"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:id="@+id/chat_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="15:20"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/chat_status"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_circle"
+                android:layout_gravity="end"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
+                app:tint="@color/colorAccent" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
