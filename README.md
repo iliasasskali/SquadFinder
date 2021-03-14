@@ -8,9 +8,9 @@ Un cop iniciada la sessió apareix la llista d'esdeveniments disponibles, amb la
 
 En el llistat d'esdeveniments, prement sobre l'últim esdeveniment ("Mitja Marató de Barcelona") es pot entrar al detall d'aquest per veure com és el detall d'un esdeveniment.
 	- Dintre el detall d'un esdeveniment si no ets participant es pot compartir o unir-se (no canvia res a part dels botons quan t'uneixes o abandones, ja que no tenim base de dades).
-	* Prement el botó per unir-se apareix botó per abandonar i botó de xat.
-		- Amb el botó abandonar desapareix el botó de xat.
-		- Amb el botó xat anem a la pantalla xat del grup (hem fet que respongui automàticament de forma simple)
+* Prement el botó per unir-se apareix botó per abandonar i botó de xat.
+  - Amb el botó abandonar desapareix el botó de xat.
+  - Amb el botó xat anem a la pantalla xat del grup (hem fet que respongui automàticament de forma simple)
 
 El xat hem fet que un bot automatitzat respongui a preguntes de forma simple, per tal de fer-lo una mica més interactiu i "viu".
 Les preguntes que se li poden formular són les següents:
@@ -28,9 +28,9 @@ En el llistat de grups, prement sobre el grup "Lliga de debat UPF" entrem al det
 	- Podem unir-nos i abandonar i entrar al xat per consultar amb l'organitzador.
 	
 En els meus Grups i Esdeveniments ("Meus G/E") tenim:
-	* Calendari a la part superior.
-	* Els meus Grups:
-		- Hem afegit el grup Lliga de debat suposant que s'hi pertany.
+ * Calendari a la part superior.
+ * Els meus Grups:
+ * Hem afegit el grup Lliga de debat suposant que s'hi pertany.
 		- Un segon grup (Admin) creat per l'usuari que utilitza l'app.
 			- Entrant al grup veiem que és diferent a la vista normal de grup afegint botons.
 			  Tenim un botó per editar el grup, destacar-lo, compartir i accedir al xat (Accedir al xat és l'únic funcional)
