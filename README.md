@@ -41,3 +41,4 @@ En la pantalla PRO només tenim una explicació del que és, i un botó amb el q
 
 Moltes funcionalitats només estan com a disseny, ja que sense base de dades (falta de temps i coneixement) no es poden aplicar.
 Perquè funcioni el mapa en el detall esdeveniment s'han de tenir els serveis de google (nosaltres hem installat totes les SDK tools relacionades amb google).
+Al fitxer local.properties hi ha l'sdk d'un company (s'ha de canviar)
