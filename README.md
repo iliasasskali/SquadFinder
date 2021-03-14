@@ -23,6 +23,7 @@ Les preguntes que se li poden formular són les següents:
 - "flip coin" ==> retorna cara o creu
 Cada una de les opcions anteriors retorna una resposta, en el cas que el bot no entengui que li demana l'usuari retornarà un missatge dient que no ho ha entès.
 Les preguntes no tenen en consideració els accents. En l'informe hi ha una explicació una mica més detallada en el punt 11.
+Podem accedir a la pestanya de xats des del botó superior a la dreta, hi ha dos xats que en clicar obren un nou xat.
 
 En el llistat de grups, prement sobre el grup "Lliga de debat UPF" entrem al detall d'un grup, molt semblant al detall d'un esdeveniment.
 	- Podem unir-nos i abandonar i entrar al xat per consultar amb l'organitzador.
@@ -39,3 +40,4 @@ En els meus Grups i Esdeveniments ("Meus G/E") tenim:
 En la pantalla PRO només tenim una explicació del que és, i un botó amb el que començar el període de prova.
 
 Moltes funcionalitats només estan com a disseny, ja que sense base de dades (falta de temps i coneixement) no es poden aplicar.
+Perquè funcioni el mapa en el detall esdeveniment s'han de tenir els serveis de google (nosaltres hem installat totes les SDK tools relacionades amb google).
