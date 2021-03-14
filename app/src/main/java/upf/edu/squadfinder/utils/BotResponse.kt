@@ -1,6 +1,5 @@
 package upf.edu.squadfinder.utils
 
-import android.widget.Toast
 import upf.edu.squadfinder.utils.Constants.OPEN_GOOGLE
 import upf.edu.squadfinder.utils.Constants.OPEN_SEARCH
 import java.sql.Date

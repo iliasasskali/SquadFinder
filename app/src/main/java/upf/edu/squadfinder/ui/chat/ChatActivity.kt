@@ -2,11 +2,13 @@ package upf.edu.squadfinder.ui.chat
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import upf.edu.squadfinder.MainActivity
+import kotlinx.android.synthetic.main.activity_chat.*
+import kotlinx.coroutines.*
+import upf.edu.squadfinder.R
 import upf.edu.squadfinder.data.Message
 import upf.edu.squadfinder.utils.BotResponse
 import upf.edu.squadfinder.utils.Constants.OPEN_GOOGLE
@@ -14,10 +16,6 @@ import upf.edu.squadfinder.utils.Constants.OPEN_SEARCH
 import upf.edu.squadfinder.utils.Constants.RECEIVE_ID
 import upf.edu.squadfinder.utils.Constants.SEND_ID
 import upf.edu.squadfinder.utils.Time
-import kotlinx.android.synthetic.main.activity_chat.*
-import kotlinx.coroutines.*
-import upf.edu.squadfinder.R
-import upf.edu.squadfinder.ui.grups.GrupsRecyclerViewAdapter
 
 class ChatActivity : AppCompatActivity() {
 

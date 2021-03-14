@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.RecyclerView
 import upf.edu.squadfinder.DetailedGroupActivity
 import upf.edu.squadfinder.DetailedGroupCreatorActivity
 import upf.edu.squadfinder.R
-import java.security.AccessController.getContext
 
 class MeusGrupsRecyclerViewAdapter : RecyclerView.Adapter<MeusGrupsRecyclerViewAdapter.ViewHolder>() {
 

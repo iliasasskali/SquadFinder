@@ -1,11 +1,9 @@
 package upf.edu.squadfinder
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import android.widget.LinearLayout
-import androidx.core.view.isVisible
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import upf.edu.squadfinder.ui.chat.ChatActivity
 

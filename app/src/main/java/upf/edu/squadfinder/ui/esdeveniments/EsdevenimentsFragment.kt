@@ -8,7 +8,6 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import upf.edu.squadfinder.databinding.FragmentEsdevenimentsBinding
-import upf.edu.squadfinder.ui.esdeveniments.EsdevenimentsRecyclerViewAdapter
 
 
 class EsdevenimentsFragment : Fragment() {

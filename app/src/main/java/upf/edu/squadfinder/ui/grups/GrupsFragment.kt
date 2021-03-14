@@ -8,7 +8,6 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import upf.edu.squadfinder.databinding.FragmentGrupsBinding
-import upf.edu.squadfinder.ui.grups.GrupsRecyclerViewAdapter
 
 class GrupsFragment : Fragment() {
 
