@@ -14,6 +14,7 @@ class ChatsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chats)
+        this.title = "Xats"
 
         // showing the back button in action bar
         getSupportActionBar()?.setDisplayHomeAsUpEnabled(true)
