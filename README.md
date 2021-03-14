@@ -14,8 +14,8 @@ En el llistat d'esdeveniments, prement sobre l'últim esdeveniment ("Mitja Marat
 
 El xat hem fet que un bot automatitzat respongui a preguntes de forma simple, per tal de fer-lo una mica més interactiu i "viu".
 Les preguntes que se li poden formular són les següents:
-	- "hola" o "ei"
-	- "que tal" o "com estas"
+* "hola" o "ei"
+- "que tal" o "com estas"
 	- "hora"
 	- "obre google"
 	- "busca" més una cadena de busqueda (e.g. "gats") ==> busca "gats" a google
